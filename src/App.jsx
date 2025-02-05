@@ -1,17 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import Contact from "./pages/contact/Contact"
 import Podcast from "./pages/podcast/Podcast"
 import References from "./pages/references/References"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
     <div>
+    <BrowserRouter>
+      <Navbar/>
       <Home/>
       <About/>
       <Contact/>
       <Podcast/>
       <References/>
+    </BrowserRouter>
     </div>
   )
 }
