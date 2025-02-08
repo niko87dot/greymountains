@@ -1,5 +1,5 @@
 import {Link, NavLink} from "react-router-dom"
-import Logo from "../images/Header.png"
+import Logo from "../images/Platzhalter.png"
 import {links} from "../data"
 import { FaBars } from "react-icons/fa6"
 import "./navbar.css"
@@ -10,7 +10,7 @@ const Navbar = () => {
    <nav>
         <div className="container nav__container">
             <Link to="/" className="logo">
-              <img src= {Logo} alt="Grey Mountains Logo" />
+              <img src= {Logo} alt="Grey Mountains Logo" height={100} />
             </Link>
             <ul className="nav__links">
               {
