@@ -56,5 +56,30 @@ nav {
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
     margin-top: 0.5rem;
+}
 
+
+
+
+
+/* MEDIA QUERIES (medium and small screens) */
+
+@media screen and (max-width: 1024px) {
+    .nav__toggle-btn{
+        display: inline-block;
+        background: transparent;
+        font-size: 1-8rem;
+        cursor: pointer;
+    }
+
+    .nav__toggle-btn svg {
+        color: var(--color-gray-100);
+    }
+
+    .nav__links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+    }
 }
