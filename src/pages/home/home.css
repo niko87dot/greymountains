@@ -43,3 +43,11 @@
     border-radius: 50%;
     position: absolute;
 }
+
+.main__header-image {
+    position: relative;
+}
+
+.main__header:hover .main__header-circle {
+    filter: blur(15px);
+}
