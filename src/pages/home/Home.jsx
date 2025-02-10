@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from "../../components/Header"
+import Header from "../../components/MainHeader"
 import "./home.css"
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <>
       <Header/>
-      
+
       </>
     </div>
   )
