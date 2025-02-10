@@ -1,15 +1,16 @@
 import React from 'react'
 import { BsFillCameraReelsFill } from "react-icons/bs";
+import SectionHead from './SectionHead';
 
 
 const Offers = () => {
   return (
     <section className="offers">
         <div className="container offers__container">
-            <div className="offers__head">
-                <span>{<BsFillCameraReelsFill/>}</span>
-                <h2>Platzhalter</h2>
-            </div>
+            <SectionHead icon={<BsFillCameraReelsFill/>} title="Platzhalter" />
+        </div>
+        <div className="offers__wrapper">
+            
         </div>
     </section>
   )
