@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
    <nav>
         <div className="container nav__container">
-            <Link to="/" className="logo">
+            <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
               <img src= {Logo} alt="Grey Mountains Logo" height={100} />
             </Link>
             <ul className={`nav__links ${isNavShowing ? "show__nav" : "hide__Nav"}`}>

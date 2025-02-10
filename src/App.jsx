@@ -12,11 +12,13 @@ const App = () => {
     <div>
     <BrowserRouter>
       <Navbar/>
-      <Home/>
-      <About/>
-      <Contact/>
-      <Podcast/>
-      <References/>
+      <Routes>
+        <Route index element={<Home/>}/>
+        <Route path="about" element={<About/>}/>
+        <Route path="contact" element={<Contact/>}/>
+        <Route path="podcast" element={<Podcast/>}/>
+        <Route path="references" element={<References/>}/>
+      </Routes>
     </BrowserRouter>
     </div>
   )
