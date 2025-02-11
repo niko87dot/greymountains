@@ -110,15 +110,22 @@ export const testimonials = [
     {
         id: 1,
         name: "Brunopolous Jodokulos",
-        quote: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        quote: "Eigentlich bin ich nur hier, weil ich was zu essen möchte. Haben sie die Nummer von Amnesty International?",
         job: "Grey Mountains Media",
         avatar: require("./images/avatar1.jpg"),
     },
     {
         id: 2,
-        name: "Herbert Grönemeyer",
-        quote: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        name: "Jack Bauer",
+        quote: "Grey Mountains hat mir geholfen die Welt innerhalb von 24 Stunden zu retten.",
         job: "Grey Mountains Media",
-        avatar: require("./images/avatar1.jpg"),
-    }
-]
+        avatar: require("./images/avatar2.jpg"),
+    },
+    {
+        id: 3,
+        name: "Michael Jordan",
+        quote: "Grey Mountains hat mir beigebracht Dinge persönlich zu nehmen und mich zu dem Champion gemacht der ich heute bin..",
+        job: "Grey Mountains Media",
+        avatar: require("./images/avatar3.jpg"),
+    },
+]   
