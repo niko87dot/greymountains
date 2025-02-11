@@ -2,6 +2,9 @@ import React from 'react'
 import { BsFillCameraReelsFill } from "react-icons/bs";
 import SectionHead from './SectionHead';
 import { offers } from '../data';
+import Card from "../UI/Card"
+import { Link } from 'react-router-dom';
+import {AiFillCaretRight} from "react-icons/ai"
 
 const Offers = () => {
   return (
@@ -12,7 +15,14 @@ const Offers = () => {
         <div className="offers__wrapper">
             {
                 offers.map(({id, icon, title, info, path}) => {
-                    return <h4>Hi</h4>
+                    return (
+                        <Card className="offers__offer" key={id}>
+                            <span>{icon}</span>
+                            <h4>{title}</h4>
+                            <small>{info}</small>
+                            <Link to={path} className="btn sm">Mehr <AiFillCaretRight/></Link>
+                        </Card>
+                    )
                 })
             }
         </div>
