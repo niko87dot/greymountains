@@ -105,3 +105,20 @@ export const faqs = [
         answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
     },
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Brunopolous Jodokulos",
+        quote: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        job: "Grey Mountains Media",
+        avatar: require("./images/avatar1.jpg"),
+    },
+    {
+        id: 2,
+        name: "Herbert Grönemeyer",
+        quote: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        job: "Grey Mountains Media",
+        avatar: require("./images/avatar1.jpg"),
+    }
+]
