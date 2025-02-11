@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from "../images/Platzhalter.png"
-import { AiFillInstagram, AiOutlineInstagram } from "react-icons/ai"
+import { AiOutlineInstagram } from "react-icons/ai"
 import { FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
