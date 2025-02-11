@@ -1,13 +1,26 @@
 import Image from "../images/platzhalter2.png"
 import SectionHead from "./SectionHead"
 import {GiCutDiamond} from "react-icons/gi"
-
+import { values } from "../data"
+import Card from "../UI/Card"
 
 const Values = () => {
   return (
-    <div>
-      
-    </div>
+    <section className="values">
+        <div className="container values__container">
+            <div className="values__left">
+                <div className="values__image">
+                    <img src={Image} alt="Grey Mountains Media Werte" />
+                </div>
+            </div>
+            <div className="values__right">
+                <SectionHead icon={<GiCutDiamond/>} title="Values"/>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+        </div>
+    </section>
   )
 }
 
