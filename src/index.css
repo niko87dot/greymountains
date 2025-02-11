@@ -152,3 +152,9 @@ section {
     background: var(--color-secondary);
     color: var(--color-gray-600);
 }
+
+.card small {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+}
