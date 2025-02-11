@@ -55,3 +55,30 @@ export const offers = [
         path: "/"
     }
 ]
+
+export const values = [
+    {
+        id: 1,
+        icon: <IoMdCamera />,
+        title: "Wert1",
+        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 2,
+        icon: <FaHandshake />,
+        title: "Wert 2",
+        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 3,
+        icon: <FaHandshake />,
+        title: "Wert 3",
+        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 4,
+        icon: <FaHandshake />,
+        title: "Wert 4",
+        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+]
