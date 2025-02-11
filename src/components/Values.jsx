@@ -18,6 +18,17 @@ const Values = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur
                 </p>
+                <div className="values__wrapper">
+                    {
+                        values.map(({id, icon, title, desc}) =>{
+                            return <Card className="values__value">
+                                <span>{icon}</span>
+                                <h4>{title}</h4>
+                                <small>{desc}</small>
+                            </Card>
+                        })
+                    }
+                </div>
             </div>
         </div>
     </section>
