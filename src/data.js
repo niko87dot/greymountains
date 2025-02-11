@@ -82,3 +82,26 @@ export const values = [
         desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
     },
 ]
+
+export const faqs = [
+    {
+        id: 1,
+        question: "Frage",
+        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 2,
+        question: "Frage",
+        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 3,
+        question: "Frage",
+        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+    {
+        id: 4,
+        question: "Frage",
+        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+    },
+]
