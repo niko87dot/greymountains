@@ -17,7 +17,7 @@ const Footer = () => {
                 </p>
                 <div className="footer__socials">
                     <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
-                    <a href="https://youtube.com" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
+                    <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
                 </div>
             </article>
             <article>
