@@ -281,3 +281,28 @@ footer {
     border-top: 2px solid var(--color-primary);
     margin-top: 5rem;
 }
+
+
+/*=================== MEDIA QUERIES (medium screens) =================*/
+
+@media screen and (max-width: 1024px) {
+    .main__header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main__header-container {
+        gap: 0;
+    }
+
+    .main__header-circle {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+/* OFFERS*/
+
+.offers__wrapper {
+    grid-template-columns: 1fr 1fr;
+}
