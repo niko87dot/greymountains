@@ -13,7 +13,7 @@ const Contact = () => {
     <section className="contact">
       <div className="container contact__container">
         <div className="contact__wrapper">
-          
+          <a href="mailto:info@greymountains.de" target="blank" rel="noreferrer noopener"><MdEmail/></a>
         </div>
       </div>
     </section>

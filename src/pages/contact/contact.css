@@ -1,0 +1,17 @@
+.contact__container {
+    display: grid;
+    place-items: center;
+}
+
+.content__wrapper {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+
+.content__wrapper a {
+    background: var(--color-primary);
+    font-size: 2rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+}
