@@ -1,11 +1,23 @@
-import React from 'react'
+import Header from "../../components/Header"
+import HeaderImage from "../../images/header.png"
+import {MdEmail} from "react-icons/md"
 import "./contact.css"
 
 const Contact = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Header title="Kontaktieren Sie Uns!" image={HeaderImage}>
+    Mouth-breather. Nobody normal ever accomplished anything meaningful in this world. 
+    You're an idiot, Steve Harrington. You're beautiful, Nancy Wheeler.
+    </Header>
+    <section className="contact">
+      <div className="container contact__container">
+        <div className="contact__wrapper">
+          
+        </div>
+      </div>
+    </section>
+    </>
   )
 }
 
