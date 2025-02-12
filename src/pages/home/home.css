@@ -255,6 +255,7 @@ footer {
 .footer__socials {
     margin-top: 1.5rem;
     display: flex;
+    gap: 1rem;
 }
 
 .footer__socials a {
@@ -299,10 +300,48 @@ footer {
         width: 16rem;
         height: 16rem;
     }
-}
 
 /* OFFERS*/
 
 .offers__wrapper {
     grid-template-columns: 1fr 1fr;
+}
+
+/* WERTE */
+.values__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.values__wrapper {
+    gap: 4rem 3rem;
+}
+
+/* FOTO IN VALUES FÜR IPAD NICHT SICHTBAR! */
+
+.values__image {
+    display: none;
+}
+
+/*FAQ*/
+
+.faqs__wrapper {
+    grid-template-columns: 1fr;
+}
+
+/*TESTIMONIALS*/
+
+.testimonials {
+    width: 75%;
+}
+
+/* FOOTER*/
+
+.footer__container {
+
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
 }
