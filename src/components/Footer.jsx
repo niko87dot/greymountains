@@ -16,7 +16,7 @@ const Footer = () => {
                 Sirloin t-bone ribeye bacon salami drumstick capicola beef hamburger tenderloin andouille prosciutto cow kielbasa.
                 </p>
                 <div className="footer__socials">
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
+                    <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
                     <a href="https://youtube.com" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
                 </div>
             </article>

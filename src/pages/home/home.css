@@ -350,10 +350,6 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-.navbar {
-    width: 100%;
-}
-
 /*MAIN HEADER */
 .main__header {
     margin-top: 0;
@@ -361,5 +357,65 @@ footer {
     height: 100vh;
 }
 
+.main__header-image, .main__header-circle {
+    display: none;
+}
+
+.main__header-container{
+    grid-template-columns: 1fr;
+}
+
+/* OFFERS */
+.offers__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.offers__offer {
+    width: 84%;
+    margin: 0 auto;
+}
+
+/* WERTE */
+
+.values__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.card.values__value {
+    width: 84%;
+    margin-inline: auto;
+}
+
+/* FAQ */
+
+.faqs__wrapper {
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 7rem;
+}
+
+.footer__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.footer__container article {
+    align-items: center;
+}
+
+.footer__container article p {
+    text-align: center;
+}
 
 }
