@@ -1,0 +1,23 @@
+.about__section-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about__section-content h1 {
+    margin-bottom: 2rem;
+}
+
+.about__section-content p {
+    margin-bottom: 1rem;
+}
+
+.about__story-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+
+.about__vision-container {
+    grid-template-columns: 50% 40%;
+    gap:10%;
+}
