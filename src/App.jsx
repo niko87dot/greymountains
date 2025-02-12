@@ -7,6 +7,7 @@ import Podcast from "./pages/podcast/Podcast"
 import References from "./pages/references/References"
 import NotFound from "./pages/notFound/NotFound"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="references" element={<References/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </div>
   )
