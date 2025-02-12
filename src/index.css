@@ -176,6 +176,32 @@ section {
     background: black;
 }
 
+.header__container-bg {
+    position: absolute;
+    width: 100%;
+}
+
+.header__container-bg img {
+    opacity: 0.5;
+}
+
+.header__content {
+    position: relative;
+    width: 44%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-gray-100);
+}
+
+.header__content h2 {
+    margin-bottom: 1rem;
+}
+
+.header__content p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
 /*=================== MEDIA QUERIES (medium screens) =================*/
 
 @media screen and (max-width: 1024px) {
