@@ -345,3 +345,21 @@ footer {
 }
 
 }
+
+/*=================== MEDIA QUERIES (Phones) =================*/
+
+@media screen and (max-width: 600px) {
+
+.navbar {
+    width: 100%;
+}
+
+/*MAIN HEADER */
+.main__header {
+    margin-top: 0;
+    padding: 12rem 0 0;
+    height: 100vh;
+}
+
+
+}
