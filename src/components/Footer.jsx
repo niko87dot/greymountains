@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import Logo from "../images/Platzhalter.png"
 import { AiOutlineInstagram } from "react-icons/ai"
 import { FaYoutube } from "react-icons/fa"
+import { FaSpotify } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -18,6 +20,7 @@ const Footer = () => {
                 <div className="footer__socials">
                     <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
                     <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
+                    <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify/></a>
                 </div>
             </article>
             <article>
