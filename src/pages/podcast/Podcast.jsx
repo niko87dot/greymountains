@@ -24,6 +24,7 @@ const Podcast = () => {
               We said we'd say it was the snow that killed the other two, but it wasn't. 
               Nature is lethal but it doesn't hold a candle to man.
               </p>
+              <iframe title="brandit. Podcast" src="https://open.spotify.com/embed/show/3JYc6CejghMVvFXCrzZne8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </section>
