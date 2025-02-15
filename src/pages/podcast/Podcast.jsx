@@ -16,6 +16,11 @@ const Podcast = () => {
         <div className="podcast__section-content">
             <h1>brandit.</h1>
             <h2>Der branding Podcast by Grey Mountains Media</h2>
+            <p>
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. 
+            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? 
+            De apocalypsi gorger omero undead survivor dictum mauris.
+            </p>
         </div>
         <div className="podcast__section-image">
             <img src={StoryImage} alt="" />

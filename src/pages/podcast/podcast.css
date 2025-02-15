@@ -4,12 +4,14 @@
 	border-bottom-left-radius: 10%;
 	border-bottom-right-radius: 10%;
     overflow: hidden;
+    width: 75%;
 }
 
 .podcast-container {
     display: grid;
     grid-template-columns: 40% 40%;
     gap: 20%;
+    margin-bottom: 5rem;
 }
 
 .podcast__container {
