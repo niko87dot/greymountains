@@ -7,6 +7,10 @@
     width: 75%;
 }
 
+.podcast__section-content h2 {
+    font-family: "Poppins";
+}
+
 .podcast-container {
     display: grid;
     grid-template-columns: 40% 40%;
