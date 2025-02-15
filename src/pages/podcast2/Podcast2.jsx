@@ -22,11 +22,16 @@ const Podcast2 = () => {
                             <p className="btn__title">Abonnieren</p>
                             <a href="#" className="btn__link">
                                 <ion-icon name="logo-apple"></ion-icon>
-                                
+                                <span>Apple Music</span>
+                            </a>
+                            <a href="#" className="btn__link">
+                                <ion-icon name="logo-soundcloud"></ion-icon>
+                                <span>SoundCloud</span>
                             </a>
                         </div>
                     </div>
                 </div>
+                <div className="hero__banner"></div>
             </section>
         </article>
     </main>
