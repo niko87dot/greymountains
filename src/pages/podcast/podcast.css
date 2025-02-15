@@ -1,3 +1,17 @@
+.podcast__section-image {
+    border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+    overflow: hidden;
+}
+
+.podcast-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+}
+
 .podcast__container {
     display: grid;
     place-items: center;

@@ -2,6 +2,7 @@ import React from 'react'
 import "./podcast.css"
 import Header from "../../components/Header"
 import HeaderImage from "../../images/header.png"
+import StoryImage from "../../images/avatar1.jpg"
 
 const Podcast = () => {
   return (
@@ -11,10 +12,18 @@ const Podcast = () => {
       You're an idiot, Steve Harrington. You're beautiful, Nancy Wheeler.
     </Header>
     <section className="podcast">
-          <div className="container podcast__container">
+      <div className="container podcast-container">
+        <div className="podcast__section-content">
+            <h1>brandit.</h1>
+            <h2>Der branding Podcast by Grey Mountains Media</h2>
+        </div>
+        <div className="podcast__section-image">
+            <img src={StoryImage} alt="" />
+        </div>
+      </div>  
+    </section>
+        <div className="container podcast__container">
             <div className="podcast__wrapper">
-              <h1>brandit.</h1>
-              <h2>Der branding Podcast by Grey Mountains Media</h2>
               <p>
               You think water moves fast? You should see ice. It moves like it has a mind. 
               Like it knows it killed the world once and got a taste for murder. 
@@ -40,7 +49,6 @@ const Podcast = () => {
               </p>
             </div>
           </div>
-        </section>
     </>
   )
 }
