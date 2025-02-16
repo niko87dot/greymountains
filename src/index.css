@@ -14,6 +14,7 @@
     --color-primary: #a22111;
     --color-primary-variant: #b6ada3;
     --color-secondary: #2e2e2e;
+    --color-secondary-variant: #e7e7e7;
     --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
     --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
     --color-gray-300: hsl(var(--gray-hue), 24%, 64%);

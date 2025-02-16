@@ -131,10 +131,16 @@
 }
 
 .faq {
-    background: var(--color-gray-500);
+    background: var(--color-primary);
+    color: var(--color-secondary-variant);
     padding: 2rem;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+.faq h4 {
+    font-family: "Poppins";
+    color: var(--color-secondary-variant);
 }
 
 .faq div {
