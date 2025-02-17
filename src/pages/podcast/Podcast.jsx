@@ -3,6 +3,7 @@ import "./podcast.css"
 import Header from "../../components/Header"
 import HeaderImage from "../../images/header.png"
 import StoryImage from "../../images/avatar1.jpg"
+import LatestEpisode from '../../components/LatestEpisode'
 
 
 const Podcast = () => {
@@ -55,7 +56,7 @@ const Podcast = () => {
               </p>
             </div>
           </div>
-
+      <LatestEpisode />
     </>
   )
 }

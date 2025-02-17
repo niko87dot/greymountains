@@ -1,11 +1,11 @@
-import "./latest.css"
+import "./latestepisode.css"
 
 const LatestEpisode = () => {
-    const galleryLength = 4;
+    const galleryLength = 3;
     const images = []
 
     for (let i = 1; i <= galleryLength; i++) {
-        images.push(require(`../../images/gallery${i}.jpg`))
+        images.push(require(`../images/gallery${i}.png`))
     }
   return (
     <>
