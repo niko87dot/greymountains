@@ -1,5 +1,25 @@
 import "./latestepisode.css"
 
+
+const LatestEpisode = () => {
+  return (
+    <>
+        <section className="episodes">
+            <div className="container episode__container">
+                
+            </div>
+        </section>
+    </>
+  )
+}
+
+export default LatestEpisode
+
+
+//==========Bilder aus Images ziehen -- KEIN LINK =================//
+
+/* import "./latestepisode.css"
+
 const LatestEpisode = () => {
     const galleryLength = 3;
     const images = []
@@ -24,4 +44,4 @@ const LatestEpisode = () => {
   )
 }
 
-export default LatestEpisode
+export default LatestEpisode */

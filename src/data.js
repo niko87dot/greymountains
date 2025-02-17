@@ -128,4 +128,34 @@ export const testimonials = [
         job: "Grey Mountains Media",
         avatar: require("./images/avatar3.jpg"),
     },
-]   
+] 
+
+const Episode1 = require("./images/gallery1.png")
+const Episode2 = require("./images/gallery1.png")
+const Episode3 = require("./images/gallery1.png")
+const Episode4 = require("./images/gallery1.png")
+
+export const episodes = [
+    {
+        id: 1,
+        image: Episode1,
+        title: "Mustaaaaaaarrd",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+    {
+        id: 2,
+        title: "Mustaaaaaaarrd",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+    {
+        id: 3,
+        title: "Mustaaaaaaarrd",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+    {
+        id: 4,
+        title: "Mustaaaaaaarrd",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    }
+
+]
