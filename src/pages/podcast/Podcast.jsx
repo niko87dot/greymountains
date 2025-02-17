@@ -2,7 +2,7 @@ import React from 'react'
 import "./podcast.css"
 import Header from "../../components/Header"
 import HeaderImage from "../../images/header.png"
-import StoryImage from "../../images/avatar1.jpg"
+import StoryImage from "../../images/gallery1.png"
 import LatestEpisode from '../../components/LatestEpisode'
 
 
@@ -17,11 +17,12 @@ const Podcast = () => {
       <div className="container podcast-container">
         <div className="podcast__section-content">
             <h1>brandit.</h1>
-            <h2>Der branding Podcast by Grey Mountains Media</h2>
+            <h2>Der branding Podcast by <span className="GM_Head">Grey Mountains Media</span></h2>
             <p>
-            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. 
-            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? 
-            De apocalypsi gorger omero undead survivor dictum mauris.
+            Bei brandit. - dem Branding Podcast, sprechen wir wöchentlich über ein neues Thema, wie beispielsweise die Kraft von Storytelling, 
+            die Macht eines einprägsamen Logos oder die Geheimnisse erfolgreicher Marketingkampagnen – alles aus der Welt des Brandings. 
+            Dabei geht es nicht nur um theoretisches Wissen, sondern auch um praxiserprobte Strategien, inspirierende Geschichten und bewährte Methoden, 
+            die am Ende den Unterschied zwischen einer durchschnittlichen und einer herausragenden Brand ausmachen.
             </p>
         </div>
         <div className="podcast__section-image">
@@ -29,7 +30,7 @@ const Podcast = () => {
         </div>
       </div>  
     </section>
-        <div className="container podcast__container">
+        {/* <div className="container podcast__container">
             <div className="podcast__wrapper">
               <p>
               You think water moves fast? You should see ice. It moves like it has a mind. 
@@ -39,8 +40,8 @@ const Podcast = () => {
               and only five made it out. Now we took an oath, that I'm breaking now. 
               We said we'd say it was the snow that killed the other two, but it wasn't. 
               Nature is lethal but it doesn't hold a candle to man.
-              </p>
-              <iframe className= "podcast__spotify"
+              </p> */}
+              {/* <iframe className= "podcast__spotify"
               title="brandit. Podcast" src="https://open.spotify.com/embed/show/3JYc6CejghMVvFXCrzZne8?utm_source=generator" 
               width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
               picture-in-picture" loading="lazy"> 
@@ -53,9 +54,9 @@ const Podcast = () => {
               and only five made it out. Now we took an oath, that I'm breaking now. 
               We said we'd say it was the snow that killed the other two, but it wasn't. 
               Nature is lethal but it doesn't hold a candle to man.
-              </p>
-            </div>
-          </div>
+              </p> */}
+            {/* </div>
+          </div> */}
       <LatestEpisode />
     </>
   )

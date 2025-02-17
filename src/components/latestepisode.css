@@ -15,4 +15,9 @@
 
 .episode h3 {
     margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.episode a {
+    color: #a22111;
 }

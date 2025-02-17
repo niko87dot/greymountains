@@ -133,7 +133,6 @@ export const testimonials = [
 const Episode1 = require("./images/gallery1.png")
 const Episode2 = require("./images/gallery1.png")
 const Episode3 = require("./images/gallery1.png")
-const Episode4 = require("./images/gallery1.png")
 
 export const episodes = [
     {
@@ -154,11 +153,4 @@ export const episodes = [
         title: "Mustaaaaaaarrd",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
-    {
-        id: 4,
-        image: Episode4,
-        title: "Mustaaaaaaarrd",
-        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
-    }
-
 ]

@@ -1,14 +1,24 @@
 .podcast__section-image {
-    border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
+    border-radius: 20%;
     overflow: hidden;
-    width: 75%;
+    width: 100%;
+}
+
+.podcast__section-content h1 {
+    margin-bottom: 0,5rem;
 }
 
 .podcast__section-content h2 {
     font-family: "Poppins";
+    margin-bottom: 3rem;
+}
+
+.GM_Head {
+    color: #a22111;
+}
+
+.podcast__section-content {
+    margin-bottom: 3rem;
 }
 
 .podcast-container {
