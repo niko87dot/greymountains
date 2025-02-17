@@ -4,6 +4,9 @@ import Header from "../../components/Header"
 import HeaderImage from "../../images/header.png"
 import StoryImage from "../../images/gallery1.png"
 import LatestEpisode from '../../components/LatestEpisode'
+import { SiApplepodcasts } from "react-icons/si";
+import { FaSpotify } from "react-icons/fa";
+import { SiAmazonmusic } from "react-icons/si";
 
 
 const Podcast = () => {
@@ -18,6 +21,11 @@ const Podcast = () => {
         <div className="podcast__section-content">
             <h1>brandit.</h1>
             <h2>Der branding Podcast by <span className="GM_Head">Grey Mountains Media</span></h2>
+            <div className="podcast_provider">
+              <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify/></a>
+              <a href="https://www.amazon.de/music/player/podcasts/eeeaa93e-a7ce-4bcc-8d0a-6fa6ad198261/brandit" target="_blank" rel="noreferrer noopener"><SiAmazonmusic /></a>
+              <a href="https://podcasts.apple.com/at/podcast/brandit/id1724738282" target="_blank" rel="noreferrer noopener"><SiApplepodcasts /></a>
+            </div>
             <p>
             Bei brandit. - dem Branding Podcast, sprechen wir wöchentlich über ein neues Thema, wie beispielsweise die Kraft von Storytelling, 
             die Macht eines einprägsamen Logos oder die Geheimnisse erfolgreicher Marketingkampagnen – alles aus der Welt des Brandings. 

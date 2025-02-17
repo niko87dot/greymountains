@@ -10,7 +10,7 @@
 
 .podcast__section-content h2 {
     font-family: "Poppins";
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .GM_Head {
@@ -49,4 +49,28 @@
 
 .podcast__spotify {
     margin-bottom: 4rem
+}
+
+.podcast_provider {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.podcast_provider a {
+    background: var(--color-gray-100);
+    padding: 1.4rem;
+    border: 4px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
+
+.podcast_provider a svg {
+    color: var(--color-gray-600);
+}
+
+.podcast_provider a:hover {
+    border-color: var(--color-gray-100);
+    background: transparent;
 }
