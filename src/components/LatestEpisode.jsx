@@ -1,12 +1,20 @@
+import { episodes } from "../data"
 import "./latestepisode.css"
+import Episodes from "./Episodes"
 
 
 const LatestEpisode = () => {
   return (
     <>
         <section className="episodes">
-            <div className="container episode__container">
-                
+            <div className="container episodes__container">
+                {
+                    episodes.map(({id, image, title, path}) => {
+                    return <Episodes key={id} image={image} title={title} path={path}>
+
+                        </Episodes>
+                    })
+                }
             </div>
         </section>
     </>
