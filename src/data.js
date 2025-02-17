@@ -139,7 +139,7 @@ export const episodes = [
     {
         id: 1,
         image: Episode1,
-        title: "Mustaaaaaaarrd",
+        title: "Super Bowl LIX",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
     {

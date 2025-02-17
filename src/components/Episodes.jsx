@@ -1,4 +1,5 @@
 import Card from "../UI/Card"
+import "./latestepisode.css"
 
 
 const Episodes = ({image, title, path}) => {

@@ -46,7 +46,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>2025 Grey Mountains Media &copy; All Right Reserved</small>
+            <small>2025 Grey Mountains Media &copy; All Right Reserved | <a href="/">AGBs</a> | <a href="/">Datenschutz</a> | <a href="/">Impressum</a></small>
         </div>
     </footer>
   )
