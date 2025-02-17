@@ -144,16 +144,19 @@ export const episodes = [
     },
     {
         id: 2,
+        image: Episode2,
         title: "Mustaaaaaaarrd",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
     {
         id: 3,
+        image: Episode3,
         title: "Mustaaaaaaarrd",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
     {
         id: 4,
+        image: Episode4,
         title: "Mustaaaaaaarrd",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     }
