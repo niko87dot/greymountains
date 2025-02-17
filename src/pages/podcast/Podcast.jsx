@@ -4,6 +4,7 @@ import Header from "../../components/Header"
 import HeaderImage from "../../images/header.png"
 import StoryImage from "../../images/avatar1.jpg"
 
+
 const Podcast = () => {
   return (
     <>
@@ -54,6 +55,7 @@ const Podcast = () => {
               </p>
             </div>
           </div>
+
     </>
   )
 }
