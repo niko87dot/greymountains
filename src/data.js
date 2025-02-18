@@ -86,23 +86,23 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "Frage",
-        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        question: "Welche Leistungen bietet ihr genau an?",
+        answer: "Wir sind auf Videomarketing, Social Media Content, Podcasts und Grafikdesign spezialisiert. Dazu gehören Imagefilme, Recruitingvideos, Social-Media-Pakete und grafische Inhalte wie Print- und Social-Media-Designs. Wir übernehmen nicht nur die Produktion, sondern helfen auch bei der strategischen Verbreitung – damit euer Content die richtige Zielgruppe erreicht.",
     },
     {
         id: 2,
-        question: "Frage",
-        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        question: "Was unterscheidet euch von anderen Agenturen?",
+        answer: "Wir kombinieren Kreativität mit Strategie. Es geht uns nicht nur darum, ansprechende Inhalte zu erstellen – unser Fokus liegt darauf, dass sie auch messbare Ergebnisse liefern. Ob Markenaufbau, Recruiting oder Verkaufsförderung: Unser Content sieht nicht nur gut aus, sondern wirkt. Außerdem denken wir outside the box – für uns gibt es keine Standardlösungen, sondern individuelle, kreative Ansätze für jede Herausforderung.",
     },
     {
         id: 3,
-        question: "Frage",
-        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        question: "Für wen sind eure Dienstleistungen geeignet?",
+        answer: "Unsere Leistungen sind für Unternehmen jeder Größe, die sich professionell präsentieren und ihre Marke stärken möchten. Ob Start-up, Mittelstand oder Großunternehmen – wir entwickeln maßgeschneiderte Inhalte, die auf eure Ziele abgestimmt sind.",
     },
     {
         id: 4,
-        question: "Frage",
-        answer: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        question: "Wie läuft eine Zusammenarbeit mit euch ab?",
+        answer: "Ganz einfach: Ihr bringt eure Vision und Ziele mit, wir kümmern uns um die kreative Umsetzung. Wir starten mit einem Beratungsgespräch, um eure Bedürfnisse zu verstehen. Dann entwickeln wir ein Konzept, das sowohl kreativ als auch strategisch durchdacht ist. Anschließend produzieren wir euren Content und helfen euch, ihn erfolgreich zu platzieren.",
     },
 ]
 
