@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import Logo from "../images/Platzhalter.png"
 import { AiOutlineInstagram } from "react-icons/ai"
 import { FaYoutube } from "react-icons/fa"
 import { FaSpotify } from "react-icons/fa";
@@ -10,8 +9,8 @@ const Footer = () => {
     <footer>
         <div className="container footer__container">
             <article>
-                <Link to="/" className="logo">
-                    <img src={Logo} alt="Footer Logo" />
+                <Link to="/" className="footerlogo">
+                    <h1>Grey Mountains Media</h1>
                 </Link>
                 <p>
                 Frankfurter bresaola short loin, short ribs chuck salami meatball tenderloin ground round meatloaf tail boudin tongue. 

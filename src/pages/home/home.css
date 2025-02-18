@@ -243,6 +243,10 @@ footer {
     gap: 6rem;
 }
 
+.footer__container h1 {
+    color: #e7e7e7;
+}
+
 .footer__container article {
     display: flex;
     flex-direction: column;
