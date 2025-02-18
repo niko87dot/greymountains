@@ -154,3 +154,86 @@ export const episodes = [
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
 ]
+
+
+/*======================PROJEKTE=============*/
+
+const Projekt1 = require("./images/Logo_white.png")
+const Projekt2 = require("./images/Logo_white.png")
+const Projekt3 = require("./images/Logo_white.png")
+const Projekt4 = require("./images/Logo_white.png")
+const Projekt5 = require("./images/Logo_white.png")
+const Projekt6 = require("./images/Logo_white.png")
+const Projekt7 = require("./images/Logo_white.png")
+const Projekt8 = require("./images/Logo_white.png")
+const Projekt9 = require("./images/Logo_white.png")
+const Projekt10 = require("./images/Logo_white.png")
+
+const projects = [
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt1,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt2,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt3,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt4,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt5,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt6,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt6,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt7,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt8,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt9,
+    },
+    {
+        title: "",
+        headline: "",
+        description:"",
+        image: Projekt10,
+    },
+]
