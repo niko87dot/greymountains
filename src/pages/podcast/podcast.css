@@ -87,6 +87,10 @@
         grid-template-columns: 1fr;
         align-items: center;
     }
+    
+    .podcast__section-content h1 {
+        font-size: 5rem;
+    }
 
     .podcast__section-content p {
         margin-bottom: -5rem;

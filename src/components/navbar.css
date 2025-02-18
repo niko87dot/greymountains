@@ -1,5 +1,5 @@
 nav {
-    height: 5rem;
+    height: 6rem;
     width: 100vw;
     background: var(--color-primary);
     display: grid;
@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-    width: 7rem;
+    width: 4,5rem;
     display: block;
 }
 
@@ -57,7 +57,7 @@ nav {
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
-    margin-top: 0.5rem;
+    margin-top: 1.4rem;
 }
 
 

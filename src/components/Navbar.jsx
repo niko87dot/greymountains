@@ -1,6 +1,6 @@
 import { useState } from "react"
 import {Link, NavLink} from "react-router-dom"
-import Logo from "../images/Platzhalter.png"
+import Logo from "../images/Logo_white.png"
 import {links} from "../data"
 import { FaBars } from "react-icons/fa6"
 import { MdOutlineClose } from "react-icons/md"
@@ -14,7 +14,7 @@ const Navbar = () => {
    <nav>
         <div className="container nav__container">
             <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
-              <img src= {Logo} alt="Grey Mountains Logo" height={100} />
+              <img src= {Logo} alt="Grey Mountains Logo" height={80} />
             </Link>
             <ul className={`nav__links ${isNavShowing ? "show__nav" : "hide__Nav"}`}>
               {
