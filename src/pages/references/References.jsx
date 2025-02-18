@@ -1,25 +1,25 @@
-import React from 'react'
+
+import { projects } from "../../data"
 import "./references.css"
-import {projects} from "../../data"
-import Card from '../../UI/Card'
+
 
 const References = () => {
   return (
     <section className="projects" id="project">
-     <div className="projects__wrapper">
-                {
-                  projects.map(({title, headline, description, image}) => {
-                      return (
-                          <Card className="projects__list">
-                              <span>{image}</span>
-                              <h4>{title}</h4>
-                              <p>{headline}</p>
-                              <small>{description}</small>
-                          </Card>
+        <div className="projects__wrapper">
+            {
+              projects.map(({id, title, headline, description, image}) => {
+                    return (
+                       
+                        <projects className="projects__list" key={id} image={image}>
+                            <h4>{title}</h4>
+                            <p>{headline}</p>
+                            <small>{description}</small>
+                        </projects>
                       )
                   })
-                }
-            </div>
+            }
+          </div>
     </section>
   )
 }

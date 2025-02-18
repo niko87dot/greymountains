@@ -158,7 +158,7 @@ export const episodes = [
 
 /*======================PROJEKTE=============*/
 
-const Projekt1 = require("./images/Logo_white.png")
+const Projekt1 = require("./images/Platzhalter.png")
 const Projekt2 = require("./images/Logo_white.png")
 const Projekt3 = require("./images/Logo_white.png")
 const Projekt4 = require("./images/Logo_white.png")
@@ -171,66 +171,71 @@ const Projekt10 = require("./images/Logo_white.png")
 
 export const projects = [
     {
-        title: "",
-        headline: "",
-        description:"",
+        id: 1,
+        title: "Imagefilm",
+        headline: "AMEOS",
+        description:"BLABLABLABLABLAB",
         image: Projekt1,
     },
     {
+        id: 2,
         title: "",
         headline: "",
         description:"",
         image: Projekt2,
     },
     {
+        id: 3,
         title: "",
         headline: "",
         description:"",
         image: Projekt3,
     },
     {
+        id: 4,
         title: "",
         headline: "",
         description:"",
         image: Projekt4,
     },
     {
+        id: 5,
         title: "",
         headline: "",
         description:"",
         image: Projekt5,
     },
     {
+        id: 6,
         title: "",
         headline: "",
         description:"",
         image: Projekt6,
     },
     {
-        title: "",
-        headline: "",
-        description:"",
-        image: Projekt6,
-    },
-    {
+        id: 7,
         title: "",
         headline: "",
         description:"",
         image: Projekt7,
     },
     {
+        id: 8,
         title: "",
         headline: "",
         description:"",
         image: Projekt8,
     },
     {
+        id: 9,
         title: "",
         headline: "",
         description:"",
         image: Projekt9,
     },
     {
+
+        id: 10,
         title: "",
         headline: "",
         description:"",
