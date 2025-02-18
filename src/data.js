@@ -169,7 +169,7 @@ const Projekt8 = require("./images/Logo_white.png")
 const Projekt9 = require("./images/Logo_white.png")
 const Projekt10 = require("./images/Logo_white.png")
 
-const projects = [
+export const projects = [
     {
         title: "",
         headline: "",
