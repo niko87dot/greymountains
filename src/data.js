@@ -140,9 +140,9 @@ export const testimonials = [
     },
 ] 
 
-const Episode1 = require("./images/gallery1.png")
-const Episode2 = require("./images/gallery1.png")
-const Episode3 = require("./images/gallery1.png")
+const Episode1 = require("./images/Cover_brandit/Superbowl.png")
+const Episode2 = require("./images/Cover_brandit/Mustard.png")
+const Episode3 = require("./images/Cover_brandit/Nespresso.png")
 
 export const episodes = [
     {
@@ -160,7 +160,7 @@ export const episodes = [
     {
         id: 3,
         image: Episode3,
-        title: "Mustaaaaaaarrd",
+        title: "Nespresso",
         path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
     },
 ]
@@ -168,7 +168,7 @@ export const episodes = [
 
 /*======================PROJEKTE=============*/
 
-const Projekt1 = require("./images/Platzhalter.png")
+const Projekt1 = require("./images/Logo_white.png")
 const Projekt2 = require("./images/Logo_white.png")
 const Projekt3 = require("./images/Logo_white.png")
 const Projekt4 = require("./images/Logo_white.png")
