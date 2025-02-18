@@ -10,7 +10,7 @@ const Offers = () => {
   return (
     <section className="offers">
         <div className="container offers__container">
-            <SectionHead icon={<BsFillCameraReelsFill/>} title="Platzhalter" />
+            <SectionHead icon={<BsFillCameraReelsFill/>} title="Unser Angebot" />
         
             <div className="offers__wrapper">
                 {

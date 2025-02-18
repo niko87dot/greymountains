@@ -66,6 +66,10 @@
     margin-top: 4rem;
 }
 
+.offers__offer small {
+    text-align: justify;
+}
+
 .offers__offer a {
     margin-top: 2.5rem;
     display: flex;

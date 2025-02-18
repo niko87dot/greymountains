@@ -13,8 +13,8 @@ const References = () => {
       Mouth-breather. Nobody normal ever accomplished anything meaningful in this world. 
       You're an idiot, Steve Harrington. You're beautiful, Nancy Wheeler.
     </Header>
-      <section className="projects" id="project">
-        <div className="projects__wrapper">
+      <section className="projects">
+        <div className="container projects__container">
             {
               projects.map(({id, title, headline, description, image}) => {
                     return (

@@ -38,33 +38,9 @@ const Podcast = () => {
         </div>
       </div>  
     </section>
-        {/* <div className="container podcast__container">
-            <div className="podcast__wrapper">
-              <p>
-              You think water moves fast? You should see ice. It moves like it has a mind. 
-              Like it knows it killed the world once and got a taste for murder. 
-              After the avalanche, it took us a week to climb out. Now, I don't know exactly 
-              when we turned on each other, but I know that seven of us survived the slide... 
-              and only five made it out. Now we took an oath, that I'm breaking now. 
-              We said we'd say it was the snow that killed the other two, but it wasn't. 
-              Nature is lethal but it doesn't hold a candle to man.
-              </p> */}
-              {/* <iframe className= "podcast__spotify"
-              title="brandit. Podcast" src="https://open.spotify.com/embed/show/3JYc6CejghMVvFXCrzZne8?utm_source=generator" 
-              width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
-              picture-in-picture" loading="lazy"> 
-              </iframe>
-              <p>
-              You think water moves fast? You should see ice. It moves like it has a mind. 
-              Like it knows it killed the world once and got a taste for murder. 
-              After the avalanche, it took us a week to climb out. Now, I don't know exactly 
-              when we turned on each other, but I know that seven of us survived the slide... 
-              and only five made it out. Now we took an oath, that I'm breaking now. 
-              We said we'd say it was the snow that killed the other two, but it wasn't. 
-              Nature is lethal but it doesn't hold a candle to man.
-              </p> */}
-            {/* </div>
-          </div> */}
+    <div className="container headline__brandit">
+          <h1>Hier kannst du unsere aktuellen Folgen finden</h1>
+    </div>
       <LatestEpisode />
     </>
   )

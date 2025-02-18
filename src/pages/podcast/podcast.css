@@ -31,6 +31,7 @@
 .podcast__container {
     display: grid;
     place-items: center;
+    margin-bottom: 5rem;
 }
 
 .podcast__wrapper h1 {
@@ -78,6 +79,17 @@
     background: #a22111;
 }
 
+.headline__brandit {
+    text-align: center;
+    margin-bottom: -8.5rem;
+    margin-top: 5rem;
+}
+
+.headline__brandit h1 {
+    color: #a22111;
+    margin-top: 5rem;
+}
+
 
 /*==============MEDIA QUERIES==============*/
 
@@ -103,6 +115,10 @@
         align-items: center;
         text-align: justify;
     }
+    
+    .headline__brandit {
+        margin-top: 10rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -125,4 +141,8 @@
         text-align: center;
     }
 
+    .headline__brandit {
+        margin-top: 10rem;
+        margin-bottom: 0.2rem;
+    }
 }

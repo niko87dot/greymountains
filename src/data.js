@@ -29,29 +29,29 @@ export const offers = [
     {
         id: 1,
         icon: <IoMdCamera />,
-        title: "Service 1",
-        info: "Bacon ipsum dolor amet biltong pancetta porchetta capicola. Ball tip chislic andouille turducken leberkas.",
+        title: "Videomarketing",
+        info: "Wir produzieren Imagefilme, Recruitingvideos, Produktvorstellungen und Social Media Clips, die gezielt auf Unternehmensziele abgestimmt sind. Unser Fokus liegt nicht nur auf hochwertiger Produktion, sondern auch auf strategischer Wirkung – für Content, der nicht nur gesehen, sondern auch genutzt wird.",
         path: "/"
     },
     {
         id: 2,
         icon: <FaHandshake />,
-        title: "Service 2",
-        info: "Bacon ipsum dolor amet biltong pancetta porchetta capicola. Ball tip chislic andouille turducken leberkas.",
+        title: "Social Media Content & Verbreitung",
+        info: "Ein starkes Video allein reicht nicht – die richtige Verbreitung macht den Unterschied. Wir erstellen maßgeschneiderte Social-Media-Pakete, planen Content-Strategien und sorgen dafür, dass Inhalte genau dort ankommen, wo sie die größte Wirkung erzielen.",
         path: "/"
     },
     {
         id: 3,
         icon: <IoMdCamera />,
-        title: "Service 3",
-        info: "Bacon ipsum dolor amet biltong pancetta porchetta capicola. Ball tip chislic andouille turducken leberkas.",
+        title: "Grafikdesign & Branding",
+        info: "Von Social Media Designs über Printmaterialien bis hin zu Branding-Konzepten – wir gestalten visuelle Inhalte, die Marken konsistent und professionell präsentieren. Dabei achten wir darauf, dass jedes Design nicht nur gut aussieht, sondern auch zur Zielgruppe passt.",
         path: "/"
     },
     {
         id: 4,
         icon: <IoMdCamera />,
-        title: "Service 4",
-        info: "Bacon ipsum dolor amet biltong pancetta porchetta capicola. Ball tip chislic andouille turducken leberkas.",
+        title: "Podcast-Produktion & Moderation",
+        info: "Podcasts sind ein starkes Format, um Markenbotschaften authentisch zu vermitteln. Wir übernehmen Konzept, Aufnahme, Schnitt und Vermarktung. Auf Wunsch moderieren wir auch den Podcast, sodass Unternehmen, die sich unsicher sind, ob sie selbst durch die Sendung führen können, sich ganz auf ihr eigenes Know-how konzentrieren können.",
         path: "/"
     }
 ]
@@ -60,26 +60,26 @@ export const values = [
     {
         id: 1,
         icon: <IoMdCamera />,
-        title: "Wert1",
-        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        title: "Kreativität mit Strategie",
+        desc: "Kreativität funktioniert nur im Einklang mit Strategie. Deshalb erstellen wir unseren Content nicht nur nach dem Motto „sieht gut aus“ oder „trendet gerade“, sondern entwickeln kreative Inhalte, die gezielt auf die Ziele und die Zielgruppe des Unternehmens abgestimmt sind.",
     },
     {
         id: 2,
         icon: <FaHandshake />,
-        title: "Wert 2",
-        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        title: "Outside the Box Denken",
+        desc: "Standardlösungen gibt es bei uns nicht. Wir hinterfragen, experimentieren und finden neue Wege, um Inhalte so zu gestalten, dass sie auffallen und zum Unternehmen passen.",
     },
     {
         id: 3,
         icon: <FaHandshake />,
-        title: "Wert 3",
-        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        title: "Qualität & Professionalität",
+        desc: "Von der ersten Idee bis zur finalen Umsetzung legen wir Wert auf höchste Qualität. Jedes Detail zählt – ob im Schnitt, in der Gestaltung oder in der Strategie.",
     },
     {
         id: 4,
         icon: <FaHandshake />,
-        title: "Wert 4",
-        desc: "Bacon ipsum dolor amet biltong pancetta porchetta capicola.",
+        title: "Partnerschaftliche Zusammenarbeit",
+        desc: "Unsere Kunden sind keine Auftraggeber, sondern Partner. Wir hören zu, beraten ehrlich und arbeiten gemeinsam daran, Content zu erschaffen, der genau auf die Bedürfnisse und Ziele des Unternehmens zugeschnitten ist.",
     },
 ]
 
@@ -146,6 +146,29 @@ const Episode3 = require("./images/Cover_brandit/Nespresso.png")
 
 export const episodes = [
     {
+        id: 1,
+        image: Episode1,
+        title: "Super Bowl LIX",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+    {
+        id: 2,
+        image: Episode2,
+        title: "Mustaaaaaaarrd",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+    {
+        id: 3,
+        image: Episode3,
+        title: "Nespresso",
+        path: "https://open.spotify.com/episode/1FX4i826xVg0dUjCuzvDIJ?si=e14c05e995494807",
+    },
+]
+
+/*================ARCHIV==================*/
+
+export const episodesarchive = [
+    { 
         id: 1,
         image: Episode1,
         title: "Super Bowl LIX",
