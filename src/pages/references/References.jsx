@@ -18,7 +18,6 @@ const References = () => {
             {
               projects.map(({id, title, headline, description, image}) => {
                     return (
-                       
                         <Projekte className="projects__list" key={id} image={image}>
                             <h4>{title}</h4>
                             <p>{headline}</p>

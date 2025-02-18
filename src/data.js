@@ -104,6 +104,16 @@ export const faqs = [
         question: "Wie läuft eine Zusammenarbeit mit euch ab?",
         answer: "Ganz einfach: Ihr bringt eure Vision und Ziele mit, wir kümmern uns um die kreative Umsetzung. Wir starten mit einem Beratungsgespräch, um eure Bedürfnisse zu verstehen. Dann entwickeln wir ein Konzept, das sowohl kreativ als auch strategisch durchdacht ist. Anschließend produzieren wir euren Content und helfen euch, ihn erfolgreich zu platzieren.",
     },
+    {
+        id: 5,
+        question: "Wie schnell bekomme ich den Content?",
+        answer: "Die Produktionszeit hängt von mehreren Faktoren ab, aber wir legen Wert auf einen effizienten Ablauf. Bei Interesse vereinbaren wir schnellstmöglich ein Beratungsgespräch, in dem wir die wichtigsten Fragen klären – zum Beispiel die Zielgruppe, den Verwendungszweck und den gewünschten Stil des Videos. Mit diesen Informationen können wir die Produktion gezielt vorbereiten. Sobald unser Angebot angenommen wurde, muss nur noch ein gemeinsamer Drehtermin gefunden werden. Nach dem Produktionstag liefern wir den fertigen Content innerhalb von 7 Tagen.",
+    },
+    {
+        id: 6,
+        question: "Was kostet das Ganze?",
+        answer: "Der Preis hängt davon ab, was ihr genau braucht – jedes Projekt ist individuell. Wir wissen aber, dass es wichtig ist, eine erste Orientierung zu haben. Dafür haben wir unser Preis-Quiz entwickelt: Beantwortet ein paar Fragen zu eurem Projekt, und ihr bekommt sofort eine erste Einschätzung, mit der ihr planen könnt.",
+    }
 ]
 
 export const testimonials = [
