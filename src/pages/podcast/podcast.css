@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.videoTag__Podcast {
+    width: fit-content;
+}
+
 .podcast__section-content h1 {
     margin-bottom: 0,5rem;
 }
