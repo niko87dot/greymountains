@@ -78,8 +78,8 @@
 }
 
 .offers__offer:hover a {
-    background: var(--color-secondary);
-    color: var(--color-gray-600);
+    background: var(--color-secondary-variant);
+    color: var(--color-secondary);
 }
 
 
