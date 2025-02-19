@@ -8,6 +8,8 @@ import NotFound from "./pages/notFound/NotFound"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import AGBs from "./pages/AGBs/AGBs"
+import Datenschutz from "./pages/Datenschutz/Datenschutz"
+import Impressum from "./pages/impressum/Impressum"
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
         <Route path="references" element={<References/>}/>
         <Route path="*" element={<NotFound/>}/>
         <Route path="agbs" element={<AGBs/>}/>
+        <Route path="datenschutz" element={<Datenschutz/>}/>
+        <Route path="impressum" element={<Impressum/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
