@@ -13,13 +13,14 @@ const Footer = () => {
                     <h1>Grey Mountains Media</h1>
                 </Link>
                 <p>
-                Frankfurter bresaola short loin, short ribs chuck salami meatball tenderloin ground round meatloaf tail boudin tongue. 
-                Sirloin t-bone ribeye bacon salami drumstick capicola beef hamburger tenderloin andouille prosciutto cow kielbasa.
+                Diekmannsbusch 7
+                <br/>
+                45289 Essen
                 </p>
                 <div className="footer__socials">
-                    <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
-                    <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
-                    <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify/></a>
+                    <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram size="30px"/></a>
+                    <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube size="30px"/></a>
+                    <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify size="30px"/></a>
                 </div>
             </article>
             <article>

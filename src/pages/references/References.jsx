@@ -1,7 +1,7 @@
 import { projects } from "../../data"
 import Projekte from "../../components/Projekte"
 import Header from "../../components/Header"
-import HeaderImage from "../../images/header.png"
+import HeaderImage from "../../images/Header_Referenzen.png"
 import "./references.css"
 
 
@@ -9,9 +9,7 @@ import "./references.css"
 const References = () => {
   return (
     <>
-    <Header title="Projekte" image={HeaderImage}>
-      Mouth-breather. Nobody normal ever accomplished anything meaningful in this world. 
-      You're an idiot, Steve Harrington. You're beautiful, Nancy Wheeler.
+    <Header image={HeaderImage}>
     </Header>
       <section className="projects">
         <div className="container projects__container">

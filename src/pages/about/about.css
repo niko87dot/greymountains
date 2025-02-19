@@ -1,6 +1,5 @@
 .about__section-image {
-    border-radius: 50%;
-    overflow: hidden;
+    width: 90%;
 }
 
 .about__section-content h1 {

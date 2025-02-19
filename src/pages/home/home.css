@@ -237,7 +237,7 @@ footer {
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;
-    color: var(--color-gray-100);
+    color: var(--color-secondary-variant);
 }
 
 .footer__container {
@@ -248,6 +248,7 @@ footer {
 
 .footer__container h1 {
     color: #e7e7e7;
+    margin-bottom: -0.5rem;
 }
 
 .footer__container article {
@@ -257,16 +258,12 @@ footer {
     gap: 0.7rem;
 }
 
-.footer__container article p {
-    margin-top: 0.5rem;
-}
 
 .footer__container article h4 {
     margin-bottom: 0.6rem;
     font-size: 1rem;
 }
 .footer__socials {
-    margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
 }
