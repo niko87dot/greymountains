@@ -60,7 +60,7 @@ h2 {
 }
 
 a {
-    color: var(--color-gray-100);
+    color: var(--color-secondary-variant);
 }
 
 img {
@@ -82,7 +82,7 @@ img {
 
 .btn:hover {
     background: var(--color-secondary);
-    color: var(--color-gray-600)
+    color: var(--color-secondary-variant)
 }
 
 .btn.lg {
@@ -97,7 +97,7 @@ img {
 }
 
 .btn.sm:hover {
-    background-color: var(--color-gray-100);
+    background-color: var(--color-secondary-variant);
 }
 
 
@@ -112,15 +112,15 @@ section {
 }
 
 .section__head span {
-    background-color: var(--color-gray-500);
+    background-color: var(--color-primary);
     padding: 0.8rem;
     border-radius: 1rem;
-    color: var(--color-secondary);
+    color: var(--color-secondary-variant);
     font-size: 1.5rem;
 }
 
 .card {
-    background: #b6ada3;
+    background: #bbbdbf;
     border: 2px solid transparent;
     text-align: center;
     padding: 3rem 2rem;
