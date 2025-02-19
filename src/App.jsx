@@ -7,6 +7,7 @@ import References from "./pages/references/References"
 import NotFound from "./pages/notFound/NotFound"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import AGBs from "./pages/AGBs/AGBs"
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
         <Route path="contact" element={<Contact/>}/>
         <Route path="podcast" element={<Podcast/>}/>
         <Route path="references" element={<References/>}/>
-        <Route path="*" element={<NotFound/>}/> 
+        <Route path="*" element={<NotFound/>}/>
+        <Route path="agbs" element={<AGBs/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
