@@ -208,6 +208,10 @@ section {
 /*=================== MEDIA QUERIES (medium screens) =================*/
 
 @media screen and (max-width: 1024px) {
+
+    .header {
+        height: 10rem;
+    }
     .container {
         width: var(--container-width-md);
     }
@@ -221,7 +225,7 @@ section {
     }
 
     .header__content {
-        width: 76%;
+        width: 100%;
     }
 }
 

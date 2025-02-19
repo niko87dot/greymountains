@@ -1,7 +1,7 @@
 import React from 'react'
 import "./podcast.css"
 import Header from "../../components/Header"
-import Video from "../../images/Videos/Header_Podcast.mp4"
+import HeaderPodcast from "../../images/Podcast_Header.png"
 import StoryImage from "../../images/gallery1.png"
 import LatestEpisode from '../../components/LatestEpisode'
 import { SiApplepodcasts } from "react-icons/si";
@@ -12,12 +12,7 @@ import { SiAmazonmusic } from "react-icons/si";
 const Podcast = () => {
   return (
     <>
-    <Header>
-    <video className="videoTag__Podcast" autoPlay loop muted>
-    <source src={Video} type='video/mp4' />
-    </video>
-      Mouth-breather. Nobody normal ever accomplished anything meaningful in this world. 
-      You're an idiot, Steve Harrington. You're beautiful, Nancy Wheeler.
+    <Header image={HeaderPodcast}>
     </Header>
     <section className="podcast">
       <div className="container podcast-container">
