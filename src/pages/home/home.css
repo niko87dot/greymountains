@@ -61,7 +61,7 @@
 
 .offers__wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     margin-top: 4rem;
 }
@@ -69,6 +69,7 @@
 .offers__offer small {
     text-align: justify;
 }
+
 
 .offers__offer a {
     margin-top: 2.5rem;

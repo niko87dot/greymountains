@@ -2,6 +2,7 @@ import { IoMdCamera } from "react-icons/io";
 import { FaHandshake } from "react-icons/fa";
 
 
+
 export const links = [
     {
         name: "Home",
@@ -207,63 +208,63 @@ export const projects = [
         id: 1,
         title: "Recruitingfilm",
         headline: "Swiss Life Select",
-        description:"BLABLABLABLABLAB",
+        path: "/",
         image: Projekt1,
     },
     {
         id: 2,
         title: "Podcast",
         headline: "Mundraub",
-        description:"",
+        path: "/",
         image: Projekt2,
     },
     {
         id: 3,
         title: "Drehbuch",
         headline: "AMEOS Krankenhaus Gruppe",
-        description:"",
+        path: "/",
         image: Projekt3,
     },
     {
         id: 4,
         title: "Heizöl Reportage",
         headline: "RTL Explosiv",
-        description:"",
+        path: "/",
         image: Projekt4,
     },
     {
         id: 5,
         title: "Social Media",
         headline: "Zeichen Gegen Mobbing",
-        description:"",
+        path: "/zgm",
         image: Projekt5,
     },
     {
         id: 6,
         title: "Podcast",
         headline: "Brandit.",
-        description:"",
+        path: "/",
         image: Projekt6,
     },
     {
         id: 7,
         title: "Grafiken und Promo Video",
         headline: "Turtle Gang",
-        description:"",
+        path: "/",
         image: Projekt7,
     },
     {
         id: 8,
         title: "",
         headline: "",
-        description:"",
+        path: "/",
         image: Projekt8,
     },
     {
         id: 9,
         title: "",
         headline: "",
-        description:"",
+        path: "/",
         image: Projekt9,
     },
     {
@@ -271,7 +272,7 @@ export const projects = [
         id: 10,
         title: "",
         headline: "",
-        description:"",
+        path: "/",
         image: Projekt10,
     },
 ]

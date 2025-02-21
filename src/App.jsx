@@ -10,6 +10,7 @@ import Footer from "./components/Footer"
 import AGBs from "./pages/AGBs/AGBs"
 import Datenschutz from "./pages/Datenschutz/Datenschutz"
 import Impressum from "./pages/impressum/Impressum"
+import ZGM from "./pages/Projects/ZGM"
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="agbs" element={<AGBs/>}/>
         <Route path="datenschutz" element={<Datenschutz/>}/>
         <Route path="impressum" element={<Impressum/>}/>
+        <Route path="zgm" element={<ZGM/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
