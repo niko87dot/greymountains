@@ -34,7 +34,11 @@ const Podcast = () => {
         <div className="podcast__section-image">
             <img src={StoryImage} alt="" />
         </div>
-      </div>  
+      </div>
+      <div className="container podcast-container2">
+        <p>
+        </p>
+      </div>
     </section>
     <div className="container headline__brandit">
           <h1>Hier kannst du unsere aktuellen Folgen finden</h1>
