@@ -18,7 +18,7 @@ const Offers = () => {
                         return (
                             <Card className="offers__offer" key={id}>
                                 <span>{icon}</span>
-                                <h4>{title}</h4>
+                                <h2>{title}</h2>
                                 <small>{info}</small>
                                 <Link to={path} className="btn sm">Mehr <AiFillCaretRight/></Link>
                             </Card>

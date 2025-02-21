@@ -74,7 +74,7 @@
 
 .offers__offer small {
     text-align: justify;
-    flex-grow: 1;
+    flex-grow: 3;
     overflow: hidden;
 }
 

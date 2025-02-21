@@ -1,5 +1,8 @@
 import { IoMdCamera } from "react-icons/io";
 import { FaHandshake } from "react-icons/fa";
+import { MdPhoneIphone } from "react-icons/md";
+import { FaPencil } from "react-icons/fa6";
+import { FaMicrophoneAlt } from "react-icons/fa";
 
 
 
@@ -36,21 +39,21 @@ export const offers = [
     },
     {
         id: 2,
-        icon: <FaHandshake />,
+        icon: <MdPhoneIphone />,
         title: "Social Media Content & Verbreitung",
         info: "Ein starkes Video allein reicht nicht – die richtige Verbreitung macht den Unterschied. Wir erstellen maßgeschneiderte Social-Media-Pakete, planen Content-Strategien und sorgen dafür, dass Inhalte genau dort ankommen, wo sie die größte Wirkung erzielen.",
         path: "/"
     },
     {
         id: 3,
-        icon: <IoMdCamera />,
+        icon: <FaPencil />,
         title: "Grafikdesign & Branding",
         info: "Von Social Media Designs über Printmaterialien bis hin zu Branding-Konzepten – wir gestalten visuelle Inhalte, die Marken konsistent und professionell präsentieren. Dabei achten wir darauf, dass jedes Design nicht nur gut aussieht, sondern auch zur Zielgruppe passt.",
         path: "/"
     },
     {
         id: 4,
-        icon: <IoMdCamera />,
+        icon: <FaMicrophoneAlt />,
         title: "Podcast-Produktion & Moderation",
         info: "Podcasts sind ein starkes Format, um Markenbotschaften authentisch zu vermitteln. Wir übernehmen Konzept, Aufnahme, Schnitt und Vermarktung. Auf Wunsch moderieren wir auch den Podcast, sodass Unternehmen, die sich unsicher sind, ob sie selbst durch die Sendung führen können, sich ganz auf ihr eigenes Know-how konzentrieren können.",
         path: "/"
