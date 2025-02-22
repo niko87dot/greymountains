@@ -94,6 +94,16 @@
     margin-top: 5rem;
 }
 
+.footline__brandit {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.footline__brandit a {
+    color: #a22111;
+    font-style: italic;
+}
+
 
 /*==============MEDIA QUERIES==============*/
 

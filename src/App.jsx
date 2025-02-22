@@ -11,6 +11,7 @@ import AGBs from "./pages/AGBs/AGBs"
 import Datenschutz from "./pages/Datenschutz/Datenschutz"
 import Impressum from "./pages/impressum/Impressum"
 import ZGM from "./pages/Projects/ZGM"
+import Podcastarchiv from "./pages/podcast/Podcastarchiv"
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="datenschutz" element={<Datenschutz/>}/>
         <Route path="impressum" element={<Impressum/>}/>
         <Route path="zgm" element={<ZGM/>}/>
+        <Route path="podcastarchiv" element={<Podcastarchiv/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
