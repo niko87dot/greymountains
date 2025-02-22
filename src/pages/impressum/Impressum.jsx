@@ -4,6 +4,9 @@ const Impressum = () => {
   return (
     <section>
       <div className="container impressum-container">
+        <h1>
+          Impressum
+        </h1>
         <p>
           Angaben gemäß §5 TMG:<br/>
           Grey Mountains Media<br/>

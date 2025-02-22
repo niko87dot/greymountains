@@ -25,25 +25,23 @@ const Footer = () => {
                 </div>
             </article>
             <article>
-               <h4>Permalinks</h4>
+               <h4>Navigation</h4>
+               <Link to="/">Home</Link>
                <Link to="/about">About</Link>
                <Link to="/contact">Kontakt</Link>
-               <Link to="/">Home</Link>
-               <Link to="/podcast">References</Link>
+               <Link to="/references">Work</Link>
             </article>
             <article>
-               <h4>Permalinks</h4>
-               <Link to="/about">About</Link>
-               <Link to="/contact">Kontakt</Link>
-               <Link to="/">Home</Link>
-               <Link to="/podcast">References</Link>
+               <h4>Social Media</h4>
+               <Link to="https://www.instagram.com/greymountainsmedia">Instagram</Link>
+               <Link to="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w">Youtube</Link>
+               <Link to="/">TikTok</Link>
             </article>
             <article>
-               <h4>Permalinks</h4>
-               <Link to="/about">About</Link>
-               <Link to="/contact">Kontakt</Link>
-               <Link to="/">Home</Link>
-               <Link to="/podcast">References</Link>
+               <h4>brandit. Podcast</h4>
+               <Link to="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a">Spotify</Link>
+               <Link to="https://podcasts.apple.com/at/podcast/brandit/id1724738282">iTunes</Link>
+               <Link to="https://www.amazon.de/music/player/podcasts/eeeaa93e-a7ce-4bcc-8d0a-6fa6ad198261/brandit">Amazon Music</Link>
             </article>
         </div>
         <div className="footer__copyright">

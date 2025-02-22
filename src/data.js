@@ -20,16 +20,16 @@ export const links = [
         path: "./about"
     },
     {
-        name: "Contact",
+        name: "Kontakt",
         path: "./contact"
+    },
+    {
+        name: "Work",
+        path: "./references"
     },
     {
         name: "Podcast",
         path: "./podcast"
-    },
-    {
-        name: "References",
-        path: "./references"
     },
 ]
 
