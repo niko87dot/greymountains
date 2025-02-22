@@ -20,10 +20,10 @@ const Footer = () => {
                 45289 Essen
                 </p>
                 <div className="footer__socials">
-                    <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram size="30px"/></a>
-                    <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube size="30px"/></a>
-                    <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify size="30px"/></a>
-                    <a href="https://www.tiktok.com/@grey.mountains.me" target="_blank" rel="noreferrer noopener"><FaTiktok size="30px" /></a>
+                    <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram size="20px"/></a>
+                    <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube size="20px"/></a>
+                    <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify size="20px"/></a>
+                    <a href="https://www.tiktok.com/@grey.mountains.me" target="_blank" rel="noreferrer noopener"><FaTiktok size="20px" /></a>
                 </div>
             </article>
             <article>
