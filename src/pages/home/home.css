@@ -364,6 +364,14 @@ footer {
     gap: 4rem;
 }
 
+.footer__container article {
+    align-items: center;
+}
+
+.footer__container article p {
+    text-align: center;
+}
+
 }
 
 /*=================== MEDIA QUERIES (Phones) =================*/
@@ -423,7 +431,11 @@ footer {
 /* FOOTER */
 
 footer {
-    margin-top: 7rem;
+    margin-top: 3rem;
+}
+
+.footer__socials {
+    margin-top: 2rem;
 }
 
 .footer__container {
@@ -436,6 +448,11 @@ footer {
 
 .footer__container article p {
     text-align: center;
+}
+
+.footer__copyright {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 }
