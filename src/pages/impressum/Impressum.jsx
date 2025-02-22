@@ -1,10 +1,24 @@
-import React from 'react'
+import "./impressum.css"
 
 const Impressum = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <div className="container impressum-container">
+        <p>
+          Angaben gemäß §5 TMG:<br/>
+          Grey Mountains Media<br/>
+          Schweres & Schweres GbR<br/>
+          Diekmannsbusch 7<br/>
+          45289 Essen<br/>
+        </p>
+        <br/>
+        <br/>
+        <p>
+          Telefon: +49 (0) 157 54217851<br/>
+          email: info@greymountains.de<br/>
+        </p>
+      </div>
+    </section>
   )
 }
 

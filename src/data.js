@@ -3,6 +3,10 @@ import { FaHandshake } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
 import { FaPencil } from "react-icons/fa6";
 import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaBoxOpen } from "react-icons/fa6";
+import { FaRegLightbulb } from "react-icons/fa6";
+import { MdHighQuality } from "react-icons/md";
+
 
 
 
@@ -63,19 +67,19 @@ export const offers = [
 export const values = [
     {
         id: 1,
-        icon: <IoMdCamera />,
+        icon: <FaRegLightbulb />,
         title: "Kreativität mit Strategie",
         desc: "Kreativität funktioniert nur im Einklang mit Strategie. Deshalb erstellen wir unseren Content nicht nur nach dem Motto „sieht gut aus“ oder „trendet gerade“, sondern entwickeln kreative Inhalte, die gezielt auf die Ziele und die Zielgruppe des Unternehmens abgestimmt sind.",
     },
     {
         id: 2,
-        icon: <FaHandshake />,
+        icon: <FaBoxOpen />,
         title: "Outside the Box Denken",
         desc: "Standardlösungen gibt es bei uns nicht. Wir hinterfragen, experimentieren und finden neue Wege, um Inhalte so zu gestalten, dass sie auffallen und zum Unternehmen passen.",
     },
     {
         id: 3,
-        icon: <FaHandshake />,
+        icon: <MdHighQuality />,
         title: "Qualität & Professionalität",
         desc: "Von der ersten Idee bis zur finalen Umsetzung legen wir Wert auf höchste Qualität. Jedes Detail zählt – ob im Schnitt, in der Gestaltung oder in der Strategie.",
     },
