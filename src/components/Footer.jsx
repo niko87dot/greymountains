@@ -6,6 +6,7 @@ import { FaSpotify } from "react-icons/fa";
 
 const Footer = () => {
   return (
+    
     <footer>
         <div className="container footer__container">
             <article>
@@ -46,7 +47,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>2025 Grey Mountains Media &copy; All Right Reserved | <a href="/agbs">AGBs</a> | <a href="/datenschutz">Datenschutz</a> | <a href="/impressum">Impressum</a></small>
+            <small>{new Date().getFullYear()} Grey Mountains Media &copy; All Right Reserved | <a href="/agbs">AGBs</a> | <a href="/datenschutz">Datenschutz</a> | <a href="/impressum">Impressum</a></small>
         </div>
     </footer>
   )

@@ -4,7 +4,7 @@ import "./home.css"
 import Offers from '../../components/Offers'
 import Values from "../../components/Values"
 import FAQs from '../../components/FAQs'
-import Testimonials from '../../components/Testimonials'
+// import Testimonials from '../../components/Testimonials'
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       <Offers/>
       <Values/>
       <FAQs/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       </>
     </div>
   )

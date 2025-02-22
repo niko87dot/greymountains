@@ -4,11 +4,16 @@
     gap: 4rem;
 }
 
-.projects__list a {
-    margin-top: 2.5rem;
+.btn.sm {
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn.sm:hover {
+    background: var(--color-secondary-variant);
+    color: var(--color-secondary);
 }
 
 img {
