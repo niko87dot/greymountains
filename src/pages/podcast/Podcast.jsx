@@ -45,7 +45,7 @@ const Podcast = () => {
     </div>
       <LatestEpisode />
     <div className="container footline__brandit">
-        <small><a href="/podcastarchiv" target="_blank" rel="noreferrer noopener">Hier </a>kannst du unsere älteren Folgen finden</small>  
+        <small><a href="/podcastarchiv">Hier </a>kannst du unsere älteren Folgen finden</small>  
     </div>
     </>
   )
