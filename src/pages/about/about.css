@@ -1,5 +1,5 @@
-.about__section-image {
-    width: 90%;
+.about__section-image img {
+    border-radius: 10px;
 }
 
 .about__section-content h1 {
@@ -8,6 +8,7 @@
 
 .about__section-content p {
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .about__story-container {
@@ -25,7 +26,7 @@
 /*MEDIA QUERIES (medium screen)*/
 @media screen and (max-width: 1024px) {
     .about__section-image {
-        width: 60%;
+        width: 100%;
     }
 
     .about__section-content h1 {
@@ -33,7 +34,7 @@
     }
 
     .about__story-container, .about__vision-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
 
@@ -51,6 +52,7 @@
     }
 
     .about__story-container, .about__vision-container {
+        grid-template-columns: 1fr;
         gap: 2rem;
     }
 }

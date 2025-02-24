@@ -1,8 +1,8 @@
 import Header from "../../components/Header"
 import HeaderImage from "../../images/Header_AboutUs.png"
 import "./about.css"
-import StoryImage from "../../images/platzhalter2.png"
-import History from "../../images/UnsereGeschichte.png"
+import Vision from "../../images/UnsereVision.png"
+import History from "../../images/UnsereGeschicht.png"
 
 
 const About = () => {
@@ -60,7 +60,7 @@ const About = () => {
             </p>
           </div>
           <div className="about__section-image">
-            <img src={StoryImage} alt="" />
+            <img src={Vision} alt="Grey Mountains Media Vision" />
           </div>
         </div>
       </section>
