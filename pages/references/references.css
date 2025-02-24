@@ -1,0 +1,39 @@
+.projects_h {
+    text-align: center;
+}
+
+.projects_h p {
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.btn.sm {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.sm:hover {
+    background: var(--color-secondary-variant);
+    color: var(--color-secondary);
+}
+
+img {
+    width: 20%;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .projects__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    }

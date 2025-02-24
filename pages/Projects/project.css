@@ -1,0 +1,25 @@
+
+/* ADB*/
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 100%
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+
+/* AMEOS */
+
+.ameos__list ul{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}

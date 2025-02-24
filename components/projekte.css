@@ -1,0 +1,13 @@
+.projekte {
+    display: inline-block;
+    align-items: center;
+    gap: 2rem;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.projekte__img {
+    width: 75%;
+    gap: 2rem;
+    align-items: center;
+}

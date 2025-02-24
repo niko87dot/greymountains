@@ -1,0 +1,29 @@
+.episodes__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.card.episode {
+    padding: 1rem;
+}
+
+.episode__img {
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.episode h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.episode a {
+    color: #a22111;
+}
+
+@media screen and (max-width: 600px) {
+    .episodes__container {
+        grid-template-columns: 1fr;
+    }
+}
