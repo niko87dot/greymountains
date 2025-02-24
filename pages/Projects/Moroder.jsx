@@ -35,7 +35,7 @@ const Moroder = () => {
             <video src={MS1} alt="Grey Mountains Media Moroder Scheideanstalt Video 1" controls></video>
             <video src={MS2} alt="Grey Mountains Media Moroder Scheideanstalt Video 2" controls></video>
             <video src={MS3} alt="Grey Mountains Media Moroder Scheideanstalt Video 3" controls></video>
-            </div>
+        </div>
     </section>
   )
 }

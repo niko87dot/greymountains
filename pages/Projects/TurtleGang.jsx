@@ -1,10 +1,34 @@
-import React from 'react'
+import "./project.css"
+import Turtle1 from "../../images/turtles/TurtleGang0.png"
+import Turtle2 from "../../images/turtles/TurtleGang1.png"
+import Turtle3 from "../../images/turtles/TurtleGang2.png"
+import Turtle4 from "../../images/turtles/TurtleGang3.png"
+import Turtle5 from "../../images/turtles/TurtleGang4.png"
+import Turtle6 from "../../images/turtles/TurtleGang5.png"
+import Turtle7 from "../../images/turtles/TurtleGang6.png"
+import Turtle8 from "../../images/turtles/TurtleGang7.png"
+import Turtle9 from "../../images/turtles/TurtleGang8.png"
+import Turtle10 from "../../images/turtles/TurtleGang9.png"
+import TG1 from "../../images/turtles/TG1.mp4"
 
 const TurtleGang = () => {
   return (
     <section className="project">
             <div className="container project__container">
               <h1>Turtle Gang</h1>
+              <div className="slider">
+                <div className="slider__list">
+                  <div className="slider__item"><img src={Turtle1} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle2} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle3} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle4} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle5} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle6} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle7} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle9} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                  <div className="slider__item"><img src={Turtle10} alt="Turtle Gang NFTs by Grey Mountains"/></div>
+                </div>
+              </div>
               <h2>Need</h2>
               <p>
               Für die NFT-Kollektion Turtle Gang bestand die Aufgabe darin, die komplette grafische 
@@ -29,6 +53,10 @@ const TurtleGang = () => {
               in der Community erfolgreich bekannt zu machen und bereits vor dem Launch für großes 
               Interesse zu sorgen.
               </p>
+            </div>
+            <div className="container video-container-tg">
+                <video src={TG1} alt="Grey Mountains Media Turtle Gang Promo" controls></video>
+                <img src={Turtle8} alt="Turtle Gang NFT"/>
             </div>
           </section>
   )

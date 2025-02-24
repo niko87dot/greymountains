@@ -50,6 +50,43 @@
 }
 
 
+/* Turtle Gang */
+
+.slider:root {
+    --height: 50px;
+    --width: 100px;
+    --quantity: 10;
+}
+
+.slider {
+    width: 100%;
+    height: var(--height);
+}
+
+.slider .slider__list {
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+
+.slider .slider__list .slider__item {
+    width: var(--height);
+    height: var(--height);
+}
+
+.slider .slider__list .slider__item img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.video-container-tg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%
+}
+
 /* MEDIA QUERIES (MEDIUM) */
 
 
