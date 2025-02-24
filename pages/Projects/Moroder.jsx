@@ -1,4 +1,7 @@
-import React from 'react'
+import "./project.css"
+import MS1 from "../../images/Videos/MS1.mp4"
+import MS2 from "../../images/Videos/MS2.mp4"
+import MS3 from "../../images/Videos/MS3.mp4"
 
 const Moroder = () => {
   return (
@@ -28,6 +31,11 @@ const Moroder = () => {
           Zuschauer zu erregen und zu halten.
           </p>
         </div>
+        <div className="container video-container">
+            <video src={MS1} alt="Grey Mountains Media Moroder Scheideanstalt Video 1" controls></video>
+            <video src={MS2} alt="Grey Mountains Media Moroder Scheideanstalt Video 2" controls></video>
+            <video src={MS3} alt="Grey Mountains Media Moroder Scheideanstalt Video 3" controls></video>
+            </div>
     </section>
   )
 }
