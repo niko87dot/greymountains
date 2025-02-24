@@ -23,14 +23,6 @@ const References = () => {
                                 <p>{headline}</p>
                                 <Link to={path} className="btn sm">Mehr</Link>
                               </Card>
-                            
-                            
-                            
-                            /* <Projekte className="projects__list" key={id} image={image} title={title} headline={headline} path={path}>
-                              <h4>{title}</h4>
-                              <p>{headline}</p>
-                              <Link to={path} className="btn sm">Mehr<AiFillCaretRight/></Link>
-                            </Projekte> */
                       )
                   })
             }

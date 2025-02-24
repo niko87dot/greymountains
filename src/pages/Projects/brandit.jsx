@@ -1,6 +1,6 @@
 import React from 'react'
 
-const brandit = () => {
+const Brandit = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const brandit = () => {
   )
 }
 
-export default brandit
+export default Brandit
