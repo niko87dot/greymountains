@@ -1,14 +1,30 @@
 .about__section-image img {
     border-radius: 10px;
 }
+.about__section-image2 img {
+    border-radius: 10px;
+}
 
 .about__section-content h1 {
     margin-bottom: 2rem;
 }
 
-.about__section-content p {
+.about__section-content2 {
+    order: 1
+}
+
+.about__section-content2 h1 {
+    margin-bottom: 2rem;
+}
+
+.about__section-image2 {
+    order: 2;
+}
+
+.about__section-content, .about__section-content2 p {
     margin-bottom: 1rem;
     text-align: justify;
+    font-size: large;
 }
 
 .about__story-container {
@@ -21,38 +37,62 @@
     display: grid;
     grid-template-columns: 40% 50%;
     gap:10%;
+    grid-auto-flow: row
 }
+
+
 
 /*MEDIA QUERIES (medium screen)*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1668px) {
+
+    .about__story-container {
+        display: block;
+    }
+
+    .about__vision-container {
+        display: block;
+    }
+
     .about__section-image {
-        width: 100%;
+        float: left;
+        margin: 0 20px 20px 0; 
+        width: 40%;
     }
 
-    .about__section-content h1 {
-        margin-bottom: 1.2rem;
+    .about__section-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
 
-    .about__story-container, .about__vision-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 3rem;
+    .about__section-image2 {
+        float: right;
+        margin: 0 0 20px 20px;
+        width: 40%;
     }
 
-    .about__vision .about__section-image {
-        grid-row: 1;
+    .about__section-image2 img{
+        max-width: 100%;
+        height: auto;
     }
 }
 
 
-/*MEDIA QUERIES (small screen)*/
-@media screen and (max-width: 600px) {
-    .about__section-image {
-        width: 80%;
-        margin-inline: auto;
-    }
+/* MEDIA QUERIES (small screen) */
 
-    .about__story-container, .about__vision-container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+@media only screen and (max-width: 767px) {
+    .about__story-container,
+    .about__vision-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px; 
     }
-}
+  
+    .about__section-image,
+    .about__section-image2,
+    .about__section-content {
+      float: none;
+      width: 100%;
+      margin: 0; 
+    }
+  }

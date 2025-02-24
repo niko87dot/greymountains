@@ -40,7 +40,10 @@ const About = () => {
       </section>
       <section className="about__vision">
         <div className="container about__vision-container">
-          <div className="about__section-content">
+        <div className="about__section-image2">
+            <img src={Vision} alt="Grey Mountains Media Vision" />
+          </div>
+          <div className="about__section-content2">
             <h1>Unsere Vision</h1>
             <p>
               Wir glauben daran, dass gute Inhalte nicht nur schön aussehen, sondern gezielt wirken müssen. 
@@ -58,9 +61,6 @@ const About = () => {
               werden kann – mit der richtigen Herangehensweise lässt sich jedes Ziel auf eine kreative Art erreichen, 
               die Eindruck hinterlässt.
             </p>
-          </div>
-          <div className="about__section-image">
-            <img src={Vision} alt="Grey Mountains Media Vision" />
           </div>
         </div>
       </section>

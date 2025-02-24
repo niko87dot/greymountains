@@ -23,7 +23,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/greymountainsmedia" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram size="20px"/></a>
                     <a href="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w" target="_blank" rel="noreferrer noopener"><FaYoutube size="20px"/></a>
                     <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify size="20px"/></a>
-                    <a href="https://www.tiktok.com/@grey.mountains.me" target="_blank" rel="noreferrer noopener"><FaTiktok size="20px" /></a>
+                    <a href="https://www.tiktok.com/@grey.mountains.media" target="_blank" rel="noreferrer noopener"><FaTiktok size="20px" /></a>
                 </div>
             </article>
             <article>
@@ -37,7 +37,7 @@ const Footer = () => {
                <h4>Social Media</h4>
                <Link to="https://www.instagram.com/greymountainsmedia">Instagram</Link>
                <Link to="https://www.youtube.com/channel/UC5SuYA83CD7QAIkHEtfd71w">Youtube</Link>
-               <Link to="https://www.tiktok.com/@grey.mountains.me">TikTok</Link>
+               <Link to="https://www.tiktok.com/@grey.mountains.media">TikTok</Link>
             </article>
             <article>
                <h4>brandit. Podcast</h4>
