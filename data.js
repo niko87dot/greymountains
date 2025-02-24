@@ -199,15 +199,14 @@ export const episodesarchive = [
 
 /*======================PROJEKTE=============*/
 
-const Projekt1 = require("./images/Logo_white.png")
-const Projekt2 = require("./images/Logo_white.png")
-const Projekt3 = require("./images/Logo_white.png")
-const Projekt4 = require("./images/Logo_white.png")
-const Projekt5 = require("./images/Logo_white.png")
-const Projekt6 = require("./images/Logo_white.png")
-const Projekt7 = require("./images/Logo_white.png")
-const Projekt8 = require("./images/Logo_white.png")
-const Projekt9 = require("./images/Logo_white.png")
+const Projekt1 = require("./images/Refs/SLS.png")
+const Projekt2 = require("./images/Refs/Mundraub.png")
+const Projekt3 = require("./images/Refs/Ameos.png")
+const Projekt4 = require("./images/Refs/RTL.png")
+const Projekt5 = require("./images/Refs/TurtleGang.png")
+const Projekt6 = require("./images/Refs/AdB.png")
+const Projekt7 = require("./images/Refs/Moroder.png")
+
 
 export const projects = [
     {
@@ -226,10 +225,10 @@ export const projects = [
     },
     {
         id: 3,
-        title: "AMEOS",
-        headline: "Drehbuch",
-        path: "/ameos",
-        image: Projekt3,
+        title: "Moroder Scheideanstalt",
+        headline: "Employer Branding",
+        path: "/moroder",
+        image: Projekt7,
     },
     {
         id: 4,
@@ -240,37 +239,24 @@ export const projects = [
     },
     {
         id: 5,
-        title: "Zeichen gegen Mobbing",
-        headline: "Social Media",
-        path: "/zgm",
+        title: "Turtle Gang",
+        headline: "Grafische Gestaltung & Promo",
+        path: "/turtlegang",
         image: Projekt5,
     },
     {
         id: 6,
-        title: "brandit.",
-        headline: "Podcast",
-        path: "/brandit",
+        title: "Advokaten des Bösen",
+        headline: "Promo Videos",
+        path: "/advokaten",
         image: Projekt6,
     },
     {
         id: 7,
-        title: "Turtle Gang",
-        headline: "Grafische Gestaltung & Promo",
-        path: "/turtlegang",
-        image: Projekt7,
+        title: "AMEOS",
+        headline: "Drehbuch",
+        path: "/ameos",
+        image: Projekt3,
     },
-    {
-        id: 8,
-        title: "Advokaten des Bösen",
-        headline: "Promo Videos",
-        path: "/advokaten",
-        image: Projekt8,
-    },
-    {
-        id: 9,
-        title: "Moroder Scheideanstalt",
-        headline: "Employer Branding",
-        path: "/moroder",
-        image: Projekt9,
-    },
+    
 ]
