@@ -5,6 +5,7 @@ const Mundraub = () => {
     <section className="project">
         <div className="container project__container">
           <h1>Mundraub</h1>
+          <div className="mundraub-container">
           <h2>Need</h2>
           <p>
           Für den True-Crime-Podcast <em>Mundraub</em>bestand die Aufgabe darin, den Videopodcast 
@@ -31,6 +32,10 @@ const Mundraub = () => {
           Gleichzeitig schaffte es der Podcast Mundraub schnell in die Top 20 Spotify-Charts und erreichte 
           so eine breite Hörerschaft.
           </p>
+          </div>
+          <div className="mundraub-video-container">
+          <iframe src="https://www.youtube.com/embed/gNMRZ3gzbLA?si=-hyTzYqLLXrD2VF3" title="Mundraub Podcast produziert by Grey Mountains Media" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
         </div>
     </section>
   )
