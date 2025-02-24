@@ -3,6 +3,14 @@
     margin-bottom: 2rem;
 }
 
+.btnback {
+    margin-top: 5rem;
+}
+
+.ameos__head {
+    margin-bottom: 2rem;
+}
+
 .mundraub-video-container {
     position: relative;
     width: 100%;
@@ -87,6 +95,13 @@
     max-width: 100%
 }
 
+.video-container-tg video,
+.video-container-tg img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 /* MEDIA QUERIES (MEDIUM) */
 
 
@@ -133,5 +148,12 @@
         flex-direction: column;
         gap: 40px;
         max-width: 100%;
+    }
+
+    .video-container-tg {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        max-width: 100%
     }
 }

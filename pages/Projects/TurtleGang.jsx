@@ -10,11 +10,12 @@ import Turtle8 from "../../images/turtles/TurtleGang7.png"
 import Turtle9 from "../../images/turtles/TurtleGang8.png"
 import Turtle10 from "../../images/turtles/TurtleGang9.png"
 import TG1 from "../../images/turtles/TG1.mp4"
+import { Link } from "react-router-dom"
 
 const TurtleGang = () => {
   return (
     <section className="project">
-            <div className="container project__container">
+      <div className="container project__container">
               <h1>Turtle Gang</h1>
               <div className="slider">
                 <div className="slider__list">
@@ -53,12 +54,15 @@ const TurtleGang = () => {
               in der Community erfolgreich bekannt zu machen und bereits vor dem Launch für großes 
               Interesse zu sorgen.
               </p>
-            </div>
-            <div className="container video-container-tg">
+    </div>
+    <div className="container video-container-tg">
                 <video src={TG1} alt="Grey Mountains Media Turtle Gang Promo" controls></video>
                 <img src={Turtle8} alt="Turtle Gang NFT"/>
-            </div>
-          </section>
+    </div>
+    <div className="btnback">
+          <Link to="/references" className="btn sm">Zurück</Link>
+    </div>
+    </section>
   )
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SwissLife = () => {
   return (
@@ -28,6 +29,9 @@ const SwissLife = () => {
           dynamischen und jungen Unternehmenskultur wählten wir moderne Musik und dynamische 
           Bildaufnahmen, die den lebendigen Charakter des Teams unterstreichen.
           </p>
+        </div>
+        <div className="btnback">
+          <Link to="/references" className="btn sm">Zurück</Link>
         </div>
     </section>
   )

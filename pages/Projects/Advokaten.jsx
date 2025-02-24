@@ -2,6 +2,7 @@ import "./project.css"
 import ADB1 from "../../images/Videos/Adb1.mp4"
 import ADB2 from "../../images/Videos/Adb2.mp4"
 import ADB3 from "../../images/Videos/Adb3.mp4"
+import { Link } from "react-router-dom"
 
 const Advokaten = () => {
   return (
@@ -36,6 +37,9 @@ const Advokaten = () => {
             <video src={ADB1} alt="Grey Mountains Media Advokaten des Bösen Promo Video 1" controls></video>
             <video src={ADB2} alt="Grey Mountains Media Advokaten des Bösen Promo Video 2" controls></video>
             <video src={ADB3} alt="Grey Mountains Media Advokaten des Bösen Promo Video 3" controls></video>
+            </div>
+            <div className="btnback">
+              <Link to="/references" className="btn sm">Zurück</Link>
             </div>
       </section>
   )

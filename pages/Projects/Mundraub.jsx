@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Mundraub = () => {
   return (
@@ -36,6 +37,9 @@ const Mundraub = () => {
           <div className="mundraub-video-container">
           <iframe src="https://www.youtube.com/embed/gNMRZ3gzbLA?si=-hyTzYqLLXrD2VF3" title="Mundraub Podcast produziert by Grey Mountains Media" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
+        </div>
+        <div className="btnback">
+          <Link to="/references" className="btn sm">Zurück</Link>
         </div>
     </section>
   )

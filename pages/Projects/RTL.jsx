@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const RTL = () => {
   return (
@@ -32,6 +33,9 @@ const RTL = () => {
           im TV-Programm von RTL ausgestrahlt wurde. Die Reportage kam bei RTL so gut an, dass sie neben 
           Explosiv letztlich in mehreren Sendungen des Senders ausgestrahlt wurde.
           </p>
+        </div>
+        <div className="btnback">
+          <Link to="/references" className="btn sm">Zurück</Link>
         </div>
     </section>
   )

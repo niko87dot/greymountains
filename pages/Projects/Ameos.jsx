@@ -1,10 +1,13 @@
 import "./project.css"
+import { Link } from "react-router-dom"
+import AmeosHead from "../../images/Ameos_Referenz.png"
 
 const Ameos = () => {
   return (
     <section className="project">
-            <div className="container project__container">
+        <div className="container project__container">
               <h1>AMEOS GRUPPE</h1>
+              <img src={AmeosHead} alt="Ameos Gruppe Imagefilm Drehbuch" className="ameos__head"/>
               <h2>Need</h2>
               <p>
               Die Krankenhausgruppe AMEOS benötigte die Planung eines professionellen Imagefilms, 
@@ -38,8 +41,11 @@ const Ameos = () => {
               Mit dieser Planung schufen wir die Grundlage für einen Imagefilm, der die Stärken 
               von AMEOS professionell und wirkungsvoll in Szene setzt.
               </p>
-            </div>
-          </section>
+        </div>
+        <div className="btnback">
+            <Link to="/references" className="btn sm">Zurück</Link>
+        </div>
+    </section>
   )
 }
 
