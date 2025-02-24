@@ -2,9 +2,12 @@ import React from 'react'
 
 const Advokaten = () => {
   return (
-    <div>
-      
-    </div>
+        <section className="projects">
+            <div className="container projects__container">
+              <h1>Advokaten des Bösen</h1>
+              
+            </div>
+      </section>
   )
 }
 
