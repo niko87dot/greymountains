@@ -140,9 +140,10 @@
         height: fit-content;
         grid-template-columns: 1fr;
         align-items: center;
+        margin-bottom: 5rem;
     }
 
-    .podcast__section-content p {
+    .podcast_psection {
         margin-bottom: -8rem;
         text-align: justify
     }
@@ -155,8 +156,12 @@
         text-align: center;
     }
 
-    .headline__brandit {
+    .pcontenttwo {
         margin-top: 10rem;
-        margin-bottom: 0.2rem;
+    }
+
+    .headline__brandit {
+        margin-top: 6rem;
+        margin-bottom: 0.1rem;
     }
 }
