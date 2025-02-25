@@ -18,7 +18,7 @@ const TurtleGang = () => {
     <section className="project">
       <div className="container project__container">
               <h1>Turtle Gang</h1>
-              <div className="slider">
+              {/* <div className="slider">
                 <div className="slider__list">
                   <div className="slider__item"><img src={Turtle1} alt="Turtle Gang NFTs by Grey Mountains"/></div>
                   <div className="slider__item"><img src={Turtle2} alt="Turtle Gang NFTs by Grey Mountains"/></div>
@@ -29,7 +29,11 @@ const TurtleGang = () => {
                   <div className="slider__item"><img src={Turtle7} alt="Turtle Gang NFTs by Grey Mountains"/></div>
                   <div className="slider__item"><img src={Turtle9} alt="Turtle Gang NFTs by Grey Mountains"/></div>
                   <div className="slider__item"><img src={Turtle10} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                </div>
+                </div> 
+              </div> */}
+              
+              <div className="slide__animation">
+              <Slide/>  
               </div>
               <h2>Need</h2>
               <p>
@@ -63,7 +67,6 @@ const TurtleGang = () => {
     <div className="btnback">
           <Link to="/references" className="btn sm">Zurück</Link>
     </div>
-    <Slide/>
     </section>
   )
 }

@@ -102,6 +102,10 @@
     object-fit: cover;
 }
 
+.slide__animation {
+    margin-bottom: 4rem;
+}
+
 /* MEDIA QUERIES (MEDIUM) */
 
 
@@ -138,6 +142,9 @@
         border: 0;
     }
 
+    .slide__animation {
+        margin-top: -3rem;
+    }
 
 }
 
