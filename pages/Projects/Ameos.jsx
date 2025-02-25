@@ -7,7 +7,7 @@ const Ameos = () => {
     <section className="project">
         <div className="container project__container">
               <h1>AMEOS GRUPPE</h1>
-              <img src={AmeosHead} alt="Ameos Gruppe Imagefilm Drehbuch" className="ameos__head"/>
+              <img src={AmeosHead} alt="Ameos Gruppe Imagefilm Drehbuch by Grey Mountains Media" className="ameos__head"/>
               <h2>Need</h2>
               <p>
               Die Krankenhausgruppe AMEOS benötigte die Planung eines professionellen Imagefilms, 
