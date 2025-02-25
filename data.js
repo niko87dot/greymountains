@@ -25,7 +25,7 @@ export const links = [
     },
     {
         name: "Work",
-        path: "./references"
+        path: "./work"
     },
     {
         name: "Podcast",
@@ -39,7 +39,7 @@ export const offers = [
         icon: <IoMdCamera />,
         title: "Videomarketing",
         info: "Wir produzieren Imagefilme, Recruitingvideos, Produktvorstellungen und Social Media Clips, die gezielt auf Unternehmensziele abgestimmt sind. Unser Fokus liegt nicht nur auf hochwertiger Produktion, sondern auch auf strategischer Wirkung – für Content, der nicht nur gesehen, sondern auch genutzt wird.",
-        path: "/"
+        path: "/videomarketing"
     },
     {
         id: 2,

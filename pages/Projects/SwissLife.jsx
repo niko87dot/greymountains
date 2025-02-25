@@ -33,7 +33,7 @@ const SwissLife = () => {
           </p>
         </div>
         <div className="btnback">
-          <Link to="/references" className="btn sm">Zurück</Link>
+          <Link to="/work" className="btn sm">Zurück</Link>
         </div>
     </section>
   )

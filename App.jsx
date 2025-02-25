@@ -20,6 +20,7 @@ import Mundraub from "./pages/Projects/Mundraub"
 import RTL from "./pages/Projects/RTL"
 import SissLife from "./pages/Projects/SwissLife"
 import TurtleGang from "./pages/Projects/TurtleGang"
+import Videomarketing from "./pages/videomarketing/Videomarketing"
 
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
         <Route path="home" element={<Home/>}/>
         <Route path="contact" element={<Contact/>}/>
         <Route path="podcast" element={<Podcast/>}/>
-        <Route path="references" element={<References/>}/>
+        <Route path="work" element={<References/>}/>
         <Route path="*" element={<NotFound/>}/>
         <Route path="agbs" element={<AGBs/>}/>
         <Route path="datenschutz" element={<Datenschutz/>}/>
@@ -48,6 +49,7 @@ const App = () => {
         <Route path="rtl" element={<RTL/>}/>
         <Route path="swisslife" element={<SissLife/>}/>
         <Route path="turtlegang" element={<TurtleGang/>}/>
+        <Route path="videomarketing" element={<Videomarketing/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

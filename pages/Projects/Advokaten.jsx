@@ -39,7 +39,7 @@ const Advokaten = () => {
             <video src={ADB3} alt="Grey Mountains Media Advokaten des Bösen Promo Video 3" controls></video>
             </div>
             <div className="btnback">
-              <Link to="/references" className="btn sm">Zurück</Link>
+              <Link to="/work" className="btn sm">Zurück</Link>
             </div>
       </section>
   )
