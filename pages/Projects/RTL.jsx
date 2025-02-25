@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import RTLHead from "../../images/Header_RTL.png"
 
 const RTL = () => {
   return (
     <section className="project">
         <div className="container project__container">
           <h1>RTL Explosiv</h1>
+          <img src={RTLHead} alt="RTL Explosiv Herzoel Reportage by Grey Mountains Media" className="ameos__head"/>
           <h2>Need</h2>
           <p>
           Im Kontext der Energiekrise suchte die <em>RTL-Sendund Explosiv</em> nach einem authentischen 

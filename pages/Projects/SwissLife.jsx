@@ -1,11 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
+import SwissLifeHead from "../../images/Header_SLS.png"
 
 const SwissLife = () => {
   return (
     <section className="project">
         <div className="container project__container">
           <h1>Swiss Life Select</h1>
+          <img src={SwissLifeHead} alt="RTL Explosiv Herzoel Reportage by Grey Mountains Media" className="ameos__head"/>
           <h2>Need</h2>
           <p>
           Swiss Life Select benötigte einen Recruitingfilm, um neue potenzielle Mitarbeiter 
