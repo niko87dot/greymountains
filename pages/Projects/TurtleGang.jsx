@@ -11,6 +11,7 @@ import Turtle9 from "../../images/turtles/TurtleGang8.png"
 import Turtle10 from "../../images/turtles/TurtleGang9.png"
 import TG1 from "../../images/turtles/TG1.mp4"
 import { Link } from "react-router-dom"
+import Slide from "../../components/Slide"
 
 const TurtleGang = () => {
   return (
@@ -62,6 +63,7 @@ const TurtleGang = () => {
     <div className="btnback">
           <Link to="/references" className="btn sm">Zurück</Link>
     </div>
+    <Slide/>
     </section>
   )
 }
