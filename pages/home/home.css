@@ -3,7 +3,7 @@
     height: 80vh;
     display: grid;
     place-items: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .main__header-container {
@@ -387,6 +387,7 @@ footer {
     margin-top: 0;
     padding: 12rem 0 0;
     height: 100vh;
+    margin-bottom: -4rem;
 }
 
 .main__header-image, .main__header-circle {
@@ -459,4 +460,10 @@ footer {
     margin-right: 1rem;
 }
 
+}
+
+@media screen and (max-device-width: 320px) {
+    .main__header {
+        margin-bottom: 3rem;
+    }
 }
