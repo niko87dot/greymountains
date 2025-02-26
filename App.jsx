@@ -20,7 +20,7 @@ import Mundraub from "./pages/Projects/Mundraub"
 import RTL from "./pages/Projects/RTL"
 import SissLife from "./pages/Projects/SwissLife"
 import TurtleGang from "./pages/Projects/TurtleGang"
-import Videomarketing from "./pages/Card_Components/Videomarketing"
+import Videomarketing from "./pages/angebot/Videomarketing"
 
 
 const App = () => {
