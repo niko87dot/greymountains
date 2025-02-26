@@ -21,6 +21,7 @@ import RTL from "./pages/Projects/RTL"
 import SissLife from "./pages/Projects/SwissLife"
 import TurtleGang from "./pages/Projects/TurtleGang"
 import Videomarketing from "./pages/angebot/Videomarketing"
+import SocialMedia from "./pages/angebot/SocialMedia"
 
 
 const App = () => {
@@ -50,6 +51,7 @@ const App = () => {
         <Route path="swisslife" element={<SissLife/>}/>
         <Route path="turtlegang" element={<TurtleGang/>}/>
         <Route path="videomarketing" element={<Videomarketing/>}/>
+        <Route path="socialmediapakete" element={<SocialMedia/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -46,7 +46,7 @@ export const offers = [
         icon: <MdPhoneIphone />,
         title: "Social Media Content & Verbreitung",
         info: "Ein starkes Video allein reicht nicht – die richtige Verbreitung macht den Unterschied. Wir erstellen maßgeschneiderte Social-Media-Pakete, planen Content-Strategien und sorgen dafür, dass Inhalte genau dort ankommen, wo sie die größte Wirkung erzielen.",
-        path: "/"
+        path: "/socialmediapakete"
     },
     {
         id: 3,
