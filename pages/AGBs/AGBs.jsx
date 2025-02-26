@@ -50,6 +50,57 @@ const AGBs = () => {
                 <ol>Rohmaterial wird nach Abschluss des Projekts gelöscht, fertige Projekte werden für 2 Jahre verwahrt.</ol>
               </li>
             </p>
+            <h3>6. Mitwirkungspflichten des Auftraggebers</h3>
+            <p>
+              <li>
+                <ol>Der Auftraggeber stellt alle zur Produktion erforderlichen Materialien (Logos, Musikrechte, Drehgenehmigungen etc.) rechtzeitig zur Verfügung.</ol>
+                <ol>Fristen für Feedback und Freigaben sind einzuhalten, um Verzögerungen zu vermeiden.</ol>
+              </li>
+            </p>
+            <h3>7. Abnahme & Korrekturen</h3>
+            <p>
+              <li>
+                <ol>Der Auftraggeber hat das Recht auf zwei Korrekturschleifen, sofern nicht anders vereinbart.</ol>
+                <ol>Die finale Abnahme gilt als erfolgt, wenn der Auftraggeber nicht innerhalb von 14 Tage nach Lieferung schriftlich Mängel rügt.</ol>
+              </li>
+            </p>
+            <h3>8. Stornierung, Terminverschiebung & Rücktritt</h3>
+            <p>
+            <li>
+                <ol>
+                  Bei Stornierung eines Auftrags durch den Auftraggeber fallen folgende Gebühren an:
+                  <ul>Bereits erbrachte Leistungen (z. B. Beratung, Planung, Konzepterstellung, Drehvorbereitungen) werden vollständig abgerechnet.</ul>
+                  <ul>Zusätzlich fällt eine Stornopauschale in Höhe von 30 % der verbleibenden Vergütung an, um eingeplante Ressourcen und entgangene Aufträge zu kompensieren.</ul>
+                  <ul>Erfolgt die Stornierung weniger als 7 Tage vor Produktionsbeginn, ist die volle vereinbarte Vergütung fällig, abzüglich nachweislich ersparter Aufwendungen.</ul>
+                </ol>
+                <ol>Der Auftragnehmer kann vom Vertrag zurücktreten, wenn der Auftraggeber seinen Zahlungspflichten nicht nachkommt oder unzumutbare Änderungen verlangt</ol>
+                <ol>Falls der Auftraggeber für die Produktion erforderliche Materialien nicht rechtzeitig bereitstellt und dies zu einer Verzögerung führt, kann der Auftragnehmer eine angemessene Entschädigung verlangen.</ol>
+                <ol>Falls ein Termin aufgrund von Krankheit oder höherer Gewalt von einer der Parteien nicht wahrgenommen werden kann, wird ein Ersatztermin in beiderseitigem Einvernehmen festgelegt. Der Ersatztermin muss 
+                innerhalb von 14 Tagen nach dem ursprünglichen Termin vereinbart und spätestens innerhalb von 30 Tagen durchgeführt werden. Sollte der Auftraggeber wiederholt einen Termin aufgrund von Krankheit absagen, 
+                behält sich der Auftragnehmer das Recht vor, eine angemessene Ausfallgebühr zu erheben oder vom Vertrag zurückzutreten.</ol>
+            </li>
+            </p>
+            <h3>9. Haftung & Gewährleistung</h3>
+            <p>
+            <li>
+              <ol>Der Auftragnehmer haftet nur für Vorsatz und grobe Fahrlässigkeit.</ol>
+              <ol>Für Verzögerungen durch Dritte oder höhere Gewalt wird keine Haftung übernommen.</ol>
+              <ol>Mängelansprüche müssen innerhalb von 14 Tagen nach Lieferung schriftlich geltend gemacht werden.</ol>
+            </li>
+            <h3>10. Datenschutz & Vertraulichkeit</h3>
+            <li>
+              <ol>Der Auftragnehmer verarbeitet personenbezogene Daten gemäß DSGVO.</ol>
+              <ol>Beide Parteien verpflichten sich zur Geheimhaltung vertraulicher Informationen.</ol>
+            </li>
+            </p>
+            <h3>11. Schlussbestimmungen</h3>
+            <p>
+              <li>
+                <ol>Gerichtsstand ist Essen.</ol>
+                <ol>Es gilt das Recht der Bundesrepublik Deutschland.</ol>
+                <ol>Sollten einzelne Bestimmungen unwirksam sein, bleibt die Gültigkeit der restlichen Regelungen unberührt.</ol>
+              </li>
+            </p>
           </div>
       </section>
   )
