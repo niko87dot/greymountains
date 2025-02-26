@@ -23,6 +23,7 @@ import TurtleGang from "./pages/Projects/TurtleGang"
 import Videomarketing from "./pages/angebot/Videomarketing"
 import SocialMedia from "./pages/angebot/SocialMedia"
 import Grafikdesign from "./pages/angebot/Grafikdesign"
+import Podcastpakete from "./pages/angebot/Podcastpakete"
 
 
 const App = () => {
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="videomarketing" element={<Videomarketing/>}/>
         <Route path="socialmediapakete" element={<SocialMedia/>}/>
         <Route path="grafikdesign" element={<Grafikdesign/>}/>
+        <Route path="podcastpakete" element={<Podcastpakete/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
