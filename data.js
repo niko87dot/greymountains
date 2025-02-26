@@ -53,7 +53,7 @@ export const offers = [
         icon: <FaPencil />,
         title: "Grafikdesign & Branding",
         info: "Von Social Media Designs über Printmaterialien bis hin zu Branding-Konzepten – wir gestalten visuelle Inhalte, die Marken konsistent und professionell präsentieren. Dabei achten wir darauf, dass jedes Design nicht nur gut aussieht, sondern auch zur Zielgruppe passt.",
-        path: "/"
+        path: "/grafikdesign"
     },
     {
         id: 4,
