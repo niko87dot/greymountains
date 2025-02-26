@@ -1,0 +1,28 @@
+.agb__container ul {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.agb__container ol {
+    display: list-item;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.agb__container h1 {
+    text-align: center;
+}
+
+.agb__container h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.agb__container h3 {
+    margin-bottom: 2rem;
+}
+
+.agb__container p {
+    margin-bottom: 3rem;
+}

@@ -1,4 +1,5 @@
 import "./agbs.css"
+import { Link } from "react-router-dom"
 
 const AGBs = () => {
   return (
@@ -101,6 +102,9 @@ const AGBs = () => {
                 <ol>Sollten einzelne Bestimmungen unwirksam sein, bleibt die Gültigkeit der restlichen Regelungen unberührt.</ol>
               </li>
             </p>
+            <div className="btnback">
+            <Link to="/" className="btn sm">Zurück</Link>
+          </div>
           </div>
       </section>
   )
