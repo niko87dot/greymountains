@@ -60,7 +60,7 @@ export const offers = [
         icon: <FaMicrophoneAlt />,
         title: "Podcast-Produktion & Moderation",
         info: "Podcasts sind ein starkes Format, um Markenbotschaften authentisch zu vermitteln. Wir übernehmen Konzept, Aufnahme, Schnitt und Vermarktung. Auf Wunsch moderieren wir auch den Podcast, sodass Unternehmen, die sich unsicher sind, ob sie selbst durch die Sendung führen können, sich ganz auf ihr eigenes Know-how konzentrieren können.",
-        path: "/"
+        path: "/podcastpakete"
     }
 ]
 

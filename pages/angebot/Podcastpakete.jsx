@@ -43,14 +43,14 @@ const Podcastpakete = () => {
             </li>
           </p>
           <h3>
-          Unser Prozess – Von der Idee bis zum finalen Design
+          Unser Prozess – Von der Idee bis zum ersten Stream
           </h3>
           <p>
           <li>
-              <ol className="fatlist"><strong>Beratung & Konzeptentwicklung:</strong> Gemeinsam mit unseren Kunden definieren wir die visuellen Ziele und erarbeiten ein Designkonzept, das die Markenwerte perfekt kommuniziert.</ol>
-              <ol className="fatlist"><strong>Design-Erstellung:</strong> Unsere Designer setzen die Ideen kreativ um – egal, ob es um einzelne Elemente oder das gesamte Corporate Design geht. Jedes Design wird auf die jeweilige Zielgruppe abgestimmt.</ol>
-              <ol className="fatlist"><strong>Feedback & Anpassung:</strong> Wir legen großen Wert darauf, dass unsere Designs genau den Vorstellungen unserer Kunden entsprechen. Deshalb bieten wir die Möglichkeit, Entwürfe zu prüfen und Anpassungen vorzunehmen.</ol>
-              <ol className="fatlist"><strong>Bereitstellung & Anwendung:</strong> Sobald das Design finalisiert ist, liefern wir alle benötigten Dateiformate und stellen sicher, dass es auf allen Kanälen – digital und gedruckt – optimal dargestellt wird.</ol>
+              <ol className="fatlist"><strong>Beratung & Konzeptentwicklung:</strong> Gemeinsam mit unseren Kunden erarbeiten wir ein individuelles Podcast-Konzept, das perfekt zur Marke und Zielgruppe passt. Dabei entwickeln wir kreative Ideen, die zum Unternehmen passen – von Wissen-Podcasts bis hin zu kreativen Formaten wie Interviews oder Storytelling.</ol>
+              <ol className="fatlist"><strong>Aufnahme & Technische Umsetzung:</strong> Unser Team übernimmt die technische Leitung während der Aufnahme und stellt das gesamte Equipment zur Verfügung. Wir kommen direkt zum Kunden, damit der Aufwand für den Kunden so gering wie möglich ist, und sorgen dabei für eine professionelle Tonqualität.</ol>
+              <ol className="fatlist"><strong>Postproduktion:</strong> In der Nachbearbeitung schneiden wir Versprecher, Pausen und Nebengeräusche heraus, setzen passende Musik- und Soundeffekte ein und sorgen so für einen klaren und professionellen Klang.</ol>
+              <ol className="fatlist"><strong>Veröffentlichung & Verbreitung:</strong> Wir übernehmen das Hochladen des Podcasts auf allen gängigen Plattformen, formulieren ansprechende Beschreibungen und gestalten das Cover sowie Social-Media-Posts, um den Podcast optimal zu bewerben.</ol>
           </li>
           </p>
           <h3>
@@ -59,18 +59,34 @@ const Podcastpakete = () => {
           <p>
           <li>
               <ul>
-                  <strong>Kreativität mit Wirkung:</strong><br/>
-                  Unsere Designs sind nicht nur optisch ansprechend, sondern unterstützen auch die strategischen Ziele unserer Kunden.
-              </ul>
-              <ul>
-                  <strong>Maßgeschneiderte Lösungen:</strong><br/>
-                  Jedes Design wird individuell entwickelt, um die Einzigartigkeit der Marke zu unterstreichen.
-              </ul>
-              <ul>
                   <strong>Alles aus einer Hand:</strong><br/>
-                  Von der ersten Skizze bis zur finalen Umsetzung bieten wir einen Rundum-Service – für Design, das im Gedächtnis bleibt.
+                  Von der Planung über die technische Umsetzung bis zur Veröffentlichung bieten wir einen Komplettservice.
+              </ul>
+              <ul>
+                  <strong>Flexible Formate:</strong><br/>
+                  Ob Wissen, Interviews oder Storytelling – wir finden das passende Format für jedes Unternehmen.
+              </ul>
+              <ul>
+                  <strong>Moderation inklusive:</strong><br/>
+                  Auf Wunsch übernehmen wir die Moderation, sodass unsere Kunden sich ganz auf ihre Inhalte konzentrieren können.
+              </ul>
+              <ul>
+                  <strong>Professionelle Postproduktion:</strong><br/>
+                  Unser Schnitt sorgt dafür, dass jede Episode fließend und angenehm zu hören ist.
               </ul>
           </li>
+          </p>
+          <h3>
+            Unendliche Möglichkeiten für individuelle Podcasts
+          </h3>
+          <p>
+            Jedes Unternehmen ist einzigartig – und das gilt auch für den passenden Podcast. Neben klassischen 
+            Wissen-Podcasts entwickeln wir auch außergewöhnliche Formate, die perfekt zur jeweiligen Branche und 
+            Zielgruppe passen. Ob ein True-Crime-Podcast für eine Anwaltskanzlei, ein kulinarischer Podcast rund um 
+            ein Abendessen für ein Unternehmen aus dem Food-Bereich oder ein Kaffee-Klatsch-Format, bei dem Mitarbeiter 
+            authentisch von ihren Erfahrungen berichten – die Möglichkeiten sind grenzenlos. Wir finden für jedes 
+            Unternehmen die passende Lösung und setzen sie kreativ und professionell um, um maximale Aufmerksamkeit 
+            zu erzielen.
           </p>
           <div className="btnback">
             <Link to="/" className="btn sm">Zurück</Link>
