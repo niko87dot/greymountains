@@ -8,10 +8,8 @@
 }
 
 .contact__wrapper {
-    width: fit-content;
-    display: grid;
-    grid-template-columns: 2;
-    gap: 2rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .contact__wrapper a {

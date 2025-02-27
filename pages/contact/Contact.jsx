@@ -24,10 +24,10 @@ const Contact = () => {
         </div>
         <div className="contact__wrapper">
         <div className="contact__button">
-          <a href="mailto:info@greymountains.de" target="blank" rel="noreferrer noopener"><MdEmail/></a>
+          <a href="mailto:info@greymountains.de" target="blank" rel="noreferrer noopener"><MdEmail /></a>
         </div>
         <div className="contact__button">
-          <a href="https://www.instagram.com/greymountainsmedia" target="blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
+          <a href="https://www.instagram.com/greymountainsmedia" target="blank" rel="noreferrer noopener"><AiOutlineInstagram /></a>
         </div>
         </div>
       </div>
