@@ -3,9 +3,14 @@
     place-items: center;
 }
 
+.contact__info {
+    margin-bottom: 5rem;
+}
+
 .contact__wrapper {
     width: fit-content;
-    display: flex;
+    display: grid;
+    grid-template-columns: 2;
     gap: 2rem;
 }
 
