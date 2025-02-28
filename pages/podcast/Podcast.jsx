@@ -2,11 +2,12 @@ import React from 'react'
 import "./podcast.css"
 import Header from "../../components/Header"
 import HeaderPodcast from "../../images/Podcast_Header.png"
-import StoryImage from "../../images/gallery1.png"
+import BranditVideo from "../../images/Videos/brandit__trailer.mp4"
 import LatestEpisode from '../../components/LatestEpisode'
 import { SiApplepodcasts } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
 import { SiAmazonmusic } from "react-icons/si";
+
 
 
 const Podcast = () => {
@@ -32,7 +33,7 @@ const Podcast = () => {
             </p>
         </div>
         <div className="podcast__section-image">
-            <img src={StoryImage} alt="" />
+            <video src={BranditVideo} alt="Brandit Podcast Trailer by Grey Mountains Media" controls />
         </div>
       </div>
       <div className="container podcast-container2">
