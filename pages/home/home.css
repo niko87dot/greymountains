@@ -390,6 +390,10 @@ footer {
     margin-bottom: -4rem;
 }
 
+.main__header-left p {
+    text-align: justify;
+}
+
 .main__header-image, .main__header-circle {
     display: none;
 }
