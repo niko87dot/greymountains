@@ -44,9 +44,6 @@
     transition: var(--transition);
 }
 
-/* .main__header-image {
-    position: relative;
-} */
 
 .main__header-image {
     display: flex;
@@ -55,8 +52,8 @@
 }
 
 .main__header-image video {
-    width: 80%; /* Reduziere die Breite des Videos */
-    max-width: 400px; /* Setze eine maximale Breite */
+    width: 80%;
+    max-width: 400px; 
     height: auto; 
     object-fit: contain;
 }
@@ -114,13 +111,26 @@
     gap: 12%;
 }
 
-.values__image {
-    filter: saturate(0.25);
-    transition: var(--transition);
+.values__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.values__image:hover {
-    filter: saturate(1);
+.values__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values__image video {
+    width: 100%;  
+    max-width: 500px; 
+    min-width: 300px;  
+    height: auto;
+    object-fit: contain;
+    align-items: center;
 }
 
 .values__right > p {
@@ -323,6 +333,21 @@ footer {
 
 /*=================== MEDIA QUERIES (medium screens) =================*/
 
+@media screen and (max-width: 1300px) {
+    .values__image {
+        display: none;
+    }
+
+    .values__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     .main__header {
         height: fit-content;
@@ -348,11 +373,16 @@ footer {
 .values__container {
     grid-template-columns: 1fr;
     justify-content: center;
-    gap: 4rem;
+    gap: 2rem;
+}
+
+.values__image video {
+    width: 90%; 
+    max-width: 100%;
 }
 
 .values__wrapper {
-    gap: 4rem 3rem;
+    gap: 2rem 1rem;
 }
 
 /* FOTO IN VALUES FÜR IPAD NICHT SICHTBAR! */
@@ -400,20 +430,30 @@ footer {
     margin-top: 0;
     padding: 12rem 0 0;
     height: 100vh;
-    margin-bottom: -4rem;
+    margin-bottom: 36rem;
 }
 
 .main__header-left p {
     text-align: justify;
 }
 
-.main__header-image, .main__header-circle {
-    display: none;
-}
-
 .main__header-container{
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
 }
+
+.main__header-image video {
+    width: 90%;  
+    max-width: 400px; 
+    height: auto;
+    object-fit: contain;
+    position: relative; 
+    z-index: 1; 
+    margin-top: 3rem;
+}
+
+
 
 /* OFFERS */
 .offers__wrapper {
