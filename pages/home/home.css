@@ -55,9 +55,9 @@
 }
 
 .main__header-image video {
-    width: 100%;
-    height: auto;
-    max-height: 50%; 
+    width: 80%; /* Reduziere die Breite des Videos */
+    max-width: 400px; /* Setze eine maximale Breite */
+    height: auto; 
     object-fit: contain;
 }
 
