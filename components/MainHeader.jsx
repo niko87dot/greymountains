@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-// import Image from "../images/platzhalter2.png"
+import GMVideo from "../images/Videos/Grey_Mountains_Media.mp4"
 
 const Header = () => {
   return (
@@ -20,10 +20,10 @@ const Header = () => {
           <Link to="/contact" className="btn lg">Kontakt</Link>
         </div>
         <div className="main__header-right">
-          <div className="main__header-circle"></div>
           <div className="main__header-image">
-              {/* <img src={Image} alt="Logo" /> */}
+             <video src={GMVideo} alt="Grey Mounatains Media Vorstellung" controls />
           </div>
+          {/* <div className="main__header-circle"></div> */}
         </div>
       </div>
     </header>

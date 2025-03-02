@@ -44,8 +44,21 @@
     transition: var(--transition);
 }
 
-.main__header-image {
+/* .main__header-image {
     position: relative;
+} */
+
+.main__header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__header-image video {
+    width: 100%;
+    height: auto;
+    max-height: 50%; 
+    object-fit: contain;
 }
 
 .main__header-right:hover .main__header-circle {
