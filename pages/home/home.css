@@ -346,8 +346,6 @@ footer {
 }
 
 
-
-
 @media screen and (max-width: 1024px) {
     .main__header {
         height: fit-content;
@@ -438,8 +436,7 @@ footer {
 }
 
 .main__header-container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     grid-template-columns: 1fr;
 }
 
@@ -519,8 +516,28 @@ footer {
 
 }
 
-@media screen and (max-device-width: 320px) {
+@media only screen and (max-width: 443px) {
     .main__header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+        margin-bottom: 40rem;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .main__header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+        margin-bottom: 45rem;
+    }
+
+
+    .main__header-image video {
+        position: relative;
         margin-bottom: 3rem;
     }
+
 }

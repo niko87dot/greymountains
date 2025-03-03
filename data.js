@@ -120,7 +120,7 @@ export const faqs = [
     {
         id: 6,
         question: "Was kostet das Ganze?",
-        answer: "Der Preis hängt davon ab, was ihr genau braucht – jedes Projekt ist individuell. Wir wissen aber, dass es wichtig ist, eine erste Orientierung zu haben. Dafür haben wir unser Preis-Quiz entwickelt: Beantwortet ein paar Fragen zu eurem Projekt, und ihr bekommt sofort eine erste Einschätzung, mit der ihr planen könnt.",
+        answer: "Der Preis hängt davon ab, was ihr genau braucht – jedes Projekt ist individuell.",
     }
 ]
 

@@ -16,6 +16,7 @@ const Navbar = () => {
             <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
               <img src= {Logo} alt="Grey Mountains Logo" height={80} />
             </Link>
+            <a href="/" class="mobile-text">GREY MOUNTAINS</a>
             <ul className={`nav__links ${isNavShowing ? "show__nav" : "hide__Nav"}`}>
               {
                 links.map(({name, path}, index) => {

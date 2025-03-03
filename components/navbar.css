@@ -10,6 +10,10 @@ nav {
     z-index: 99;
 }
 
+.mobile-text {
+    display: none;
+}
+
 .navbar__middle {
     display: none;
 }
@@ -81,8 +85,14 @@ nav {
     }
 
     .nav__container .logo {
-        width: auto;
-        margin-right: -3rem;
+        display: none;
+    }
+
+    .mobile-text {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     .nav__toggle-btn{

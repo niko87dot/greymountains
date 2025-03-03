@@ -9,7 +9,7 @@ const Mundraub = () => {
           <div className="mundraub-container">
           <h2>Need</h2>
           <p>
-          Für den True-Crime-Podcast <em>Mundraub</em>bestand die Aufgabe darin, den Videopodcast 
+          Für den True-Crime-Podcast <em>Mundraub </em>bestand die Aufgabe darin, den Videopodcast 
           professionell zu produzieren, ihn effektiv zu verbreiten und einen passenden 
           Social-Media-Auftritt zu entwickeln. Ziel war es, die Reichweite des Podcasts zu 
           maximieren und ihn innerhalb kurzer Zeit bekannt zu machen.

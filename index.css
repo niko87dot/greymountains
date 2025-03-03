@@ -63,6 +63,14 @@ a {
     color: var(--color-secondary-variant);
 }
 
+ul {
+    text-align: start;
+}
+
+ol {
+    text-align: start;
+}
+
 img {
     display: block;
     object-fit: cover;

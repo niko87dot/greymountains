@@ -19,7 +19,7 @@ const Podcast = () => {
       <div className="container podcast-container">
         <div className="podcast__section-content">
             <h1>brandit.</h1>
-            <h2>Der branding Podcast by <span className="GM_Head">Grey Mountains Media</span></h2>
+            <h2>Der Branding Podcast by <span className="GM_Head">Grey Mountains Media</span></h2>
             <div className="podcast_provider">
               <a href="https://open.spotify.com/show/3JYc6CejghMVvFXCrzZne8?si=503f516a210c4e5a" target="_blank" rel="noreferrer noopener"><FaSpotify size="40px"/></a>
               <a href="https://www.amazon.de/music/player/podcasts/eeeaa93e-a7ce-4bcc-8d0a-6fa6ad198261/brandit" target="_blank" rel="noreferrer noopener"><SiAmazonmusic size="40px"/></a>
@@ -50,8 +50,7 @@ const Podcast = () => {
           <h1>Hier kannst du unsere aktuellen Folgen finden</h1>
     </div>
       <LatestEpisode />
-    <div className="container footline__brandit">
-        <small><a href="/podcastarchiv">Hier </a>kannst du unsere älteren Folgen finden</small>  
+    <div className="container footline__brandit"> 
     </div>
     </>
   )

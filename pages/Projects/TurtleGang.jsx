@@ -9,20 +9,6 @@ const TurtleGang = () => {
     <section className="project">
       <div className="container project__container">
               <h1>Turtle Gang</h1>
-              {/* <div className="slider">
-                <div className="slider__list">
-                  <div className="slider__item"><img src={Turtle1} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle2} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle3} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle4} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle5} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle6} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle7} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle9} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                  <div className="slider__item"><img src={Turtle10} alt="Turtle Gang NFTs by Grey Mountains"/></div>
-                </div> 
-              </div> */}
-              
               <div className="slide__animation">
               <Slide/>  
               </div>
