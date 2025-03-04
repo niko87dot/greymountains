@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import GMVideo from "../images/Videos/Grey_Mountains_Media.mp4"
+import VideoThumbnail from "../images/GreyMountansMedia.png"
 
 const Header = () => {
   return (
@@ -21,7 +22,7 @@ const Header = () => {
         </div>
         <div className="main__header-right">
           <div className="main__header-image">
-             <video src={GMVideo} alt="Grey Mounatains Media Vorstellung" controls />
+             <video src={GMVideo} alt="Grey Mounatains Media Vorstellung" controls poster={VideoThumbnail}/>
           </div>
           {/* <div className="main__header-circle"></div> */}
         </div>

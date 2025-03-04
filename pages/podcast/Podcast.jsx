@@ -7,6 +7,7 @@ import LatestEpisode from '../../components/LatestEpisode'
 import { SiApplepodcasts } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
 import { SiAmazonmusic } from "react-icons/si";
+import BranditThumbnail from "../../images/brandit.png"
 
 
 
@@ -33,7 +34,7 @@ const Podcast = () => {
             </p>
         </div>
         <div className="podcast__section-image">
-            <video src={BranditVideo} alt="Brandit Podcast Trailer by Grey Mountains Media" controls />
+            <video src={BranditVideo} alt="Brandit Podcast Trailer by Grey Mountains Media" controls poster={BranditThumbnail} />
         </div>
       </div>
       <div className="container podcast-container2">
