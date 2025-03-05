@@ -33,7 +33,7 @@ const About = () => {
               Unsere Kunden sind Experten in ihrem Bereich, 
               doch oft fehlt es ihnen an der richtigen Strategie für Branding, Marketing und Content-Erstellung. 
               Genau hier kommen wir ins Spiel: Wir denken outside the box, bieten kreative Lösungen und sorgen dafür, 
-              dass Marken sich nicht nur zeigen, sondern in Erinnerung bleiben.
+              dass Marken nicht nur gesehen werden, sondern in Erinnerung bleiben.
             </p>
           </div>
         </div>
