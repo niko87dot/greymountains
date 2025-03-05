@@ -24,12 +24,14 @@ import Videomarketing from "./pages/angebot/Videomarketing"
 import SocialMedia from "./pages/angebot/SocialMedia"
 import Grafikdesign from "./pages/angebot/Grafikdesign"
 import Podcastpakete from "./pages/angebot/Podcastpakete"
+import ScrollToTop from "./ScrollToTop";
 
 
 const App = () => {
   return (
     <div>
     <BrowserRouter>
+      <ScrollToTop/>
       <Navbar/>
       <Routes>
         <Route index element={<Home/>}/>
