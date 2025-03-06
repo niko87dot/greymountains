@@ -8,6 +8,7 @@ import { SiApplepodcasts } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
 import { SiAmazonmusic } from "react-icons/si";
 import BranditThumbnail from "../../images/brandit.png"
+import Podcastarchiv from './Podcastarchiv'
 
 
 
@@ -51,8 +52,9 @@ const Podcast = () => {
           <h1>Hier kannst du unsere aktuellen Folgen finden</h1>
     </div>
       <LatestEpisode />
-    <div className="container footline__brandit"> 
+    <div className="container footline__brandit">
     </div>
+    <small><a href={Podcastarchiv}>Hier</a> kannst du unsere älteren Folgen finden.</small>
     </>
   )
 }
