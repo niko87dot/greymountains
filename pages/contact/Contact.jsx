@@ -2,6 +2,7 @@ import Header from "../../components/Header"
 import HeaderImage from "../../images/Header_Kontakt.png"
 import { AiOutlineInstagram } from "react-icons/ai"
 import {MdEmail} from "react-icons/md"
+import KontaktForm from "../../components/Kontakform"
 import "./contact.css"
 
 const Contact = () => {
@@ -14,6 +15,7 @@ const Contact = () => {
         <div className="contact__info">
           <p>
             <h1 className="contact__head">Kontakt</h1>
+            <KontaktForm/>
             <p>
               Grey Mountains Media GbR<br/>
               Diekmannsbusch 7<br/>
